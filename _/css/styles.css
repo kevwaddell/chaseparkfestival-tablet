@@ -3303,7 +3303,6 @@ body {
 /* STRUCTURE */
 .cpf-wrapper {
   position: relative;
-  min-width: 1170px;
   min-height: 100%;
   background-color: white;
   margin: auto;
@@ -3367,7 +3366,6 @@ h5 {
 /* --------------------------- */
 #main-nav {
   width: 100%;
-  min-width: 1170px;
   overflow: hidden;
   position: relative;
 }
@@ -5087,7 +5085,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 #main-content #artist-posts article.grid-item {
   width: 33.33333333%;
-  height: 400px;
+  height: 250px;
   float: left;
   background-repeat: no-repeat;
   background-position: center center;
@@ -5108,7 +5106,7 @@ a.book-tickets-btn-lg:focus:after {
   position: relative;
   text-decoration: none;
   color: #FFF;
-  font-size: 30px;
+  font-size: 16px;
 }
 #main-content #artist-posts article.grid-item a span {
   position: absolute;
@@ -5117,8 +5115,8 @@ a.book-tickets-btn-lg:focus:after {
   left: 0px;
   background-color: #333;
   background-color: rgba(51, 51, 51, 0.8);
-  padding: 20px 10px 20px 10px;
-  line-height: 28px;
+  padding: 10px 10px 10px 10px;
+  line-height: 18px;
 }
 #main-content #artist-posts article.grid-item a:hover,
 #main-content #artist-posts article.grid-item a:active,

@@ -3315,7 +3315,6 @@ body#offline-503 .offline-bg-imgs {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-width: 1170px;
 }
 body#offline-503 .offline-grass-bg {
   bottom: 0px;
