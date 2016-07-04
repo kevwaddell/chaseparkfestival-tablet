@@ -1,0 +1,40 @@
+a.book-tickets-btn-lg {
+	.pad-all(0);
+	.h(10);
+	.line-h(9);
+	.font-size(5);
+	.bg-col-orange;
+	.border(@wht; 0.5);
+	.txt-col-wht;
+	.rel;
+	.rounded(15px);
+	
+		&:before, &:after {
+		font-family: FontAwesome;	
+		.w(9);
+		.line-h(9);	
+		text-align: center;
+		.txt-col-blue-dk;
+		.font-size(5);
+		}
+			
+		&:before {
+		content: "\f145";
+		.fleft;	
+		}
+		
+		&:after {
+		content: "\f054";	
+		.fright;	
+		.font-size(4);
+		}
+		
+		&:hover, &:active, &:focus {
+		.bg-col-blue-dk;
+		.txt-col-wht;
+		.border-col(@blue-dk);
+			&:before, &:after {
+			.txt-col-orange;	
+			}
+		}
+}

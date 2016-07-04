@@ -1,0 +1,155 @@
+#main-nav {
+width: 100%;
+.min-w(117);
+.over-hide;
+.rel;
+
+	&.nav-closed {
+	.h(0);	
+	}
+	
+	&.nav-open {
+	height: auto;	
+	}
+	
+	.nav-wrapper {
+	.pad-top(3);
+	.pad-bot(5);	
+	.border-bot(@wht; 0.2);
+	.inner-shadow(0, 0, 20px, 0.5);
+	}
+	
+	ul.quick-menu {
+	.mag-bot(3);
+	text-align: center;
+		li {
+		.in-block;	
+		.mag-right(1);
+		}	
+		
+		a {
+		.no-text-dec;
+		.txt-col-wht;	
+		.block;
+		.rounded(100%);
+		.border(@wht; 0.5);
+		
+			span.fontawesome-text {
+			.sr-only-helper;	
+			}
+			
+			i {
+			.block;
+			.w(6);
+			.line-h(6);
+			text-align: center;	
+			.font-size(3);
+			}
+			
+			&:hover, &:active, &:focus {
+			.bg-col-wht;
+			.txt-col-orange;
+			}
+		}
+	}
+	
+	ul.menu {
+	.mag-bot(0);
+	.mag-left(-1.5);
+	.mag-right(-1.5);
+		li {
+		width: 50%;
+		.fleft;	
+		.mag-bot(2);
+		.pad-left(1.5);
+		.pad-right(1.5);
+		}
+		a {
+		.no-text-dec;
+		.block;
+		.line-h(6);
+		.bg-col-trans;
+		.txt-col-wht;
+		.font-size(3);	
+		.border(@wht; 0.5);
+		text-align: center;
+		.transition(0.2s, ease-in-out);
+			i {
+			.fleft;
+			.line-h(6);	
+			.w(6);
+			.txt-col-orange-dk;
+			}
+			
+			&:hover, &:active, &:focus {
+			.bg-col-wht;
+			.txt-col-orange;
+			.drop-shadow(0, 0, 10px, 0.4);
+			}
+			
+		}	
+	}
+	
+	.container {
+	.rel;	
+	}
+	
+	#close-nav-btn {
+	.abs;
+	.right(1.5);
+	.bottom(-5);
+	.no-rounded;	
+	.w(5);
+	.h(5);
+	.bg-col-wht;
+	.txt-col-orange-dk;
+		&:hover, &:active, &:focus {
+		.bg-col-orange-dk;
+		.txt-col-wht;
+		}
+	}
+}
+
+nav.more-links {
+	a {
+	.block;
+	.no-text-dec;
+	.txt-col-wht;
+	.bg-col-orange;
+	.font-size(5);
+	.border-bot(@wht; 1);
+
+		&:last-child {
+		.no-border;	
+		}
+		
+		&:hover, &:active, &:focus {
+		.bg-col-orange-dk;
+		}
+			
+		&:first-child {
+		.bg-col-blue-dk;
+			&:hover, &:active, &:focus {
+			.bg-col-blue;
+			}
+		}
+		
+		&:nth-child(2) {
+		.bg-col-blue;	
+			&:hover, &:active, &:focus {
+			.bg-col-blue-dk;
+			}
+		}
+		
+		span {
+		.line-h(9);
+			&:after {
+			.fright;
+			content: "\f054";
+			font-family: FontAwesome;
+			.font-size(4);
+			.line-h(9);
+			}	
+		}
+	}	
+}

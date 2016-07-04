@@ -1,0 +1,288 @@
+/* --------------------------- */
+/* OFFLINE COMMING SOON STYLES */
+/* --------------------------- */
+
+@import url('bootstrap-select.less');
+@import url('elements.less');
+@import url('animate.less');
+@import url('vars.less');
+@import url('mixins.less');
+
+html {
+height: 100%;	
+}
+
+body#offline-503 {
+	height: 100%;
+	//overflow-y: hidden;
+	.gradient(@blue, @wht, @blue);
+	
+	h1, h2 {
+	.mag-all(0);	
+	}
+	
+	.container {
+	.min-w(117);			
+	}
+	
+	.offline-bg-imgs, .offline-guitar-bg ,.offline-grass-bg {
+	.abs;	
+	}
+	
+	.offline-bg-imgs {
+		.top(0);
+		.left(0);
+		width: 100%;
+		height: 100%;
+		.bg-img("hp-mast-notes-bg.png");
+		.bg-repeat;
+		background-position: -2px -2px;
+		.bg-size;
+		.min-w(117);
+	}
+	
+	.offline-grass-bg  {
+	.bottom(0);
+	.left(0);	
+	.h(20);
+	width: 100%;
+	.bg-img("hp-mast-grass-bg.png");
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	.bg-size(contain);	
+	}
+	
+	.offline-guitar-bg {
+	.top(0);
+	.right(0);	
+	height: 100%;
+	width: 50%;
+	.min-w(50);
+	.bg-img("hp-mast-guitar-bg.png");
+	.bg-repeat;
+	background-position: right center;
+	.bg-size(contain);
+	}
+	
+	.cpf-wrapper {
+	.rel;
+	z-index: 2;	
+	width: 100%;
+	height: 100%;
+	}
+	
+	#branding {
+	.rel;
+	z-index: 2;	
+		.logo-wrap {
+		width: 100%;
+		.h(32);	
+		.mag-top(3);
+		.bg-img("hp-logo-wrap-bg.png");
+		.bg-repeat;
+		background-position: center top;
+		.bg-size(contain);
+		}
+	
+		h1 {
+		width: 100%;
+		height: 100%;	
+		.bg-img("logo-lrg.png");
+		.bg-repeat;
+		background-position: center center;
+		.bg-size(50%);	
+		}
+		
+		.date-location {
+		.mag-top(-5);
+		.mag-bot(-2);
+		.pad-left(4);
+		.pad-right(4);
+			.dl-item {
+			.block;
+			.line-h(4);	
+			.font-size(1.6);
+			letter-spacing: 1px;
+			.pad-left(2);
+			.pad-right(2);
+			.rounded(8px);
+			.transform(skewX(-10deg));	
+			}
+			
+			.date {
+			width: 40%;	
+			//.pad-right(4);
+			}
+			.location {
+			width: 40%;	
+			margin-left: -2%;	
+			text-align: center;
+			}
+			.time {
+			margin-left: -2%;
+			width: 22%;		
+			text-align: right;
+			}
+		}
+
+	}
+	
+	#main-content {
+		.message {
+		.bg-col-wht;
+		.pad(4;3;6;3);
+		.rounded(20px);	
+		.drop-shadow(0, 3px, 10px, 0.7);
+			h2 {
+			.mag-bot-20;
+			letter-spacing: 1px;
+			.font-size(3);
+			.line-h(2.8);	
+				span {
+				.font-size(6);	
+				.line-h(5.8);
+				.block;
+				}
+			}
+			
+			p {
+			.col(@blk);	
+			}
+			
+			p, .contact-info {
+			.font-size(1.8);	
+			.line-h(2.2);
+			}
+			
+			.contact-info {
+				a {
+				.txt-col-blue-dk;
+					&:hover, &:active, &:focus {
+					.txt-col-orange;
+					}	
+				}	
+			}
+
+		}
+		
+		a.btn {
+		.pad-all(0);
+		.line-h(6);
+		.border(@wht; 0.5);
+		.rounded(12px);
+		.bg-col-orange;
+		.font-size(2.5);
+		width: 80%;
+		margin: -35px auto 0px auto;
+			&:hover, &:active, &:focus {
+			.bg-col-blue;
+			.txt-col-wht;
+			}
+			
+			&:before, &:after {
+			font-family: FontAwesome;	
+			.w(6);
+			.line-h(6);	
+			text-align: center;
+			.txt-col-blue-dk;
+			.font-size(3);
+			}
+			
+			&:before {
+			content: "\f145";
+			.fleft;	
+			}
+			
+			&:after {
+			content: "\f054";	
+			.font-size(2);	
+			.fright;
+			}
+		}// a.btn
+		
+		.contact-form {
+			.border(@wht; 0.5);
+			.pad-all(2);
+			.bg-col-blue;
+			.mag-top(2);
+			.rounded(20px);
+			
+			label {
+			.txt-col-wht;	
+			}
+			
+			.submit-btn {
+			.pad-top(2.4);	
+			}
+			
+			.btn {
+			.bg-col-orange;
+			.txt-col-wht;
+			.border(@blue-dk; 0.4);
+			.h(7);	
+				i {
+				.line-h(2.4);	
+				}
+				
+				&:hover, &:active, &:focus {
+				.bg-col-blue-dk;
+				}
+			}
+		}
+		
+		.form-messages {
+		width: 50%;
+		margin: 20px auto;	
+			li {
+			.pad-all(1);
+			text-align: center;
+			.txt-col-wht;
+			.rounded(8px);
+			.mag-bot-10;
+			.animated;
+			.flipInX;
+			.border(@wht; 0.4);
+			.drop-shadow(0, 3px, 5px, 0.5);
+				&.error {
+				.bg-col(red);	
+				}
+				
+				&.success {
+				.bg-col(@green);	
+					a {
+					.col(@wht);	
+					.bold;
+					}
+				}
+			}
+		}
+	}
+	
+	footer#site-info {
+		.abs;
+		.bottom(0);
+		.left(0);
+		width: 100%;
+		.h(5);
+		.gradient(@trans, @blk, @trans);
+		
+		.copyright {
+		.font-size(1.8);
+		.line-h(5);
+		}
+		
+		.login-btn {
+		.abs;
+		.bottom(0);
+		.right(2);	
+		.pad(1;2;1;2);
+		.bg-col-wht;
+		.txt-col-orange;
+		.opacity(0);
+		.no-text-dec;
+			&:hover, &:active, &:focus {
+			.opacity(1);
+			}
+		}
+	}
+}

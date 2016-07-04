@@ -1,0 +1,171 @@
+.strip-header {
+.h(9);
+.font-size(5);	
+.line-h(9);	
+	h1, h2 {
+	.mag-bot-0;	
+	.font-size(5);	
+	.line-h(9);	
+	}
+}
+
+#main-content {
+
+	p {
+	.font-size(2);
+	.line-h(3);	
+	.mag-bot(2);
+		&:last-child {
+		.mag-bot(0);	
+		}
+		
+		&.txt-lg {
+		.font-size(2.8);	
+		.line-h(3.8);
+		}
+	}
+	
+	ul, ol {
+	.font-size(2);
+	.line-h(3);		
+	}
+	
+	hr {
+	.rel;
+	.border-top(@orange; 0.3);	
+	.border-bot(@orange; 0.3);
+	//.no-border;
+	.h(1.6);
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	.bg-col-blue;
+	.mag-top(4);
+	.mag-bot(5);
+	.rounded(20px);
+	.box-sizing;
+
+		&:before {
+		content: "";
+		.abs;
+		left: 50%;
+		.top(-1);
+		.w(3);
+		.h(3);
+		.bg-col-orange;
+		.rounded(100%);
+		.mag-left(-1.5);
+		.border(@wht; 0.3);
+		}
+		
+		&:after {
+		content: "";
+		.abs;
+		left: 50%;
+		.top(0);
+		.w(1);
+		.h(1);
+		.bg-col-blue;
+		.rounded(100%);
+		.mag-left(-0.5);
+		}
+	}
+	
+	h1.fest-tag {
+	.mag-left(-1);
+	.mag-top(-1);
+	.bg-img("festival-for-everyone-tag.png");
+	.bg-repeat;
+	background-position: left top;
+	.bg-size(contain);	
+	.h(17);
+	.mag-bot(0);
+	.indent(-9999px);
+	}
+	
+	.hp-content h1 {
+	.font-size(4.5);	
+	.line-h(5);	
+	}
+	
+	.main-txt {
+		
+		&.with-pad {
+		.pad-top(4);
+		.pad-bot(6);	
+		}
+		
+		h2 {
+		.font-size(4.5);	
+		.line-h(5);
+		}
+
+		.main-text-header {
+		.mag-bot-20;
+		
+			img.img-title {
+			max-width: 90%;	
+			}
+			
+			.social-links {
+			.mag-bot(3);
+					
+				a {
+				.w(6);
+				.h(6);
+				.in-block;
+				.rounded(100%);
+				.mag-right(1);
+				.txt-col-wht;	
+				.no-text-dec;
+					i {
+					.block;
+					.line-h(6);
+					text-align: center;	
+					.font-size(3.5);
+					}	 
+
+					&:hover, &:active, &:focus {
+					.bg-col-orange;
+					}
+				}
+				
+			}
+			
+			h1 {
+			.font-size(5);
+			.line-h(4.8);
+			.mag-bot-0;
+			}
+			
+			a.artist-website {
+			.txt-col-orange;
+			.bold;
+			.font-size(2.5);
+			.line-h(3.5);	
+			}	
+				
+		}
+		
+		.main-text-body {
+			
+			figure.feat-img {
+			.mag-bot-30;
+			.over-hide;
+			.rounded(20px);
+			}
+			
+			blockquote {
+			.border-col(@orange);
+			.bold;
+			.txt-col-blue-dk;
+				 p {
+				.font-size(2.5);
+				.line-h(3.5);
+				font-style: italic;	
+				 }
+			}
+		}
+		
+	}
+}

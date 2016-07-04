@@ -1,0 +1,164 @@
+body#user-page {
+width: 100%;
+height: 100%;
+overflow: hidden;	
+.bg-img('user-bg.jpg');
+.bg-repeat(no-repeat);
+background-position: center center;
+.bg-size;
+
+
+	.user-outer-wrap {	
+	width: 100%;
+	height: 100%;
+	.min-h(40);
+	.bg-img('hp-mast-stripes-bg.png');
+	.bg-repeat(no-repeat);
+	background-position: center center;
+	.bg-size;
+	.rel;
+	}
+	
+	.wrap-center {
+	text-align: center;	
+	.pad-all(2);
+	height: 100%;
+		&:before {
+			content: "";
+			.in-block;
+			height: 100%;
+			vertical-align: middle;
+			margin-right: -0.25em;
+		}
+	}
+	
+	.user-form {
+	.in-block;
+	vertical-align: middle;
+	.rounded(20px);
+	.pad(16;4;4;4);
+	.trans-bg(white; 0.9);
+	.bg-img('logo-lrg.png');
+	.bg-repeat(no-repeat);
+	.bg-size(80%);
+	background-position: 50% 10px;
+	width: 80%;
+	.max-w(50);
+	.drop-shadow( 0, 10px, 40px, 0.8); 	
+	
+		.message {
+		.bg-col(@green);
+		.txt-col-wht;
+		.bold;
+		.pad-all(1);
+		.rounded(4px);
+		}
+		
+		.error {
+		.bg-col-youtube;
+		.txt-col-wht;
+		.pad-all(1);
+		.rounded(4px);	
+		}
+	
+		#rememberme {
+		.mag-right(0.5);	
+		}
+	
+		.submit-btn {
+			.bg-col-orange;
+			.txt-col-wht;	
+			.no-border;
+			
+			&:hover, &:active, &:focus {
+			.bg-col-orange-dk;
+			}
+		}
+		
+		
+		
+		ul.tml-action-links {
+		.list-style-gone;
+		}
+		
+		ul.tml-action-links a,
+		a.back-btn {
+		.block;
+		.pad-all(0.7);
+		.bg-col-blue;
+		.txt-col-wht;	
+		.rounded(4px);
+		.bold;
+		.no-text-dec;
+		text-transform: uppercase;	
+			&:hover, &:active, &:focus {
+			.bg-col-blue-dk;
+			}
+		}	
+		
+	}
+	
+}
+
+.profile-wrap {
+.pad-all(4);	
+.bg-col-wht;
+.rounded(20px);
+.border(@blue-dk; 0.5);
+.drop-shadow(0, 3px, 10px, 0.7);
+
+	.row {
+	.mag-bot-20;	
+	}
+
+	button.wp-generate-pw {
+	.bg-col-blue-dk;
+	.txt-col-wht;	
+	.no-border;
+		&:hover, &:active, &:focus {
+		.bg-col-orange;
+		}
+	}
+	
+	.tml-form-table {
+	width: 100%;	
+	}
+	
+	#pass-strength-result {
+	width: 100%;
+	.pad-all(1);	
+	.mag-bot-10;
+	}
+	
+	button.button-secondary {
+	.no-border;	
+	}
+	
+	button.wp-hide-pw {
+	.bg-col-green;
+	.txt-col-wht;
+		&:hover, &:active, &:focus {
+		.bg-col-blue-dk;
+		.txt-col-wht;
+		}	
+	}
+	
+	button.wp-cancel-pw {
+	.bg-col-youtube;
+	.txt-col-wht;
+		&:hover, &:active, &:focus {
+		.bg-col-blue-dk;
+		.txt-col-wht;
+		}	
+	}
+	
+	input.button-primary {
+	.no-border;
+	.txt-col-wht;
+	.bg-col-orange;
+		&:hover, &:active, &:focus {
+		.bg-col-blue-dk;
+		.txt-col-wht;
+		}
+	}
+}
