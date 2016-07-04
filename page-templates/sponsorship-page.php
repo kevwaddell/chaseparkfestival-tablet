@@ -16,13 +16,13 @@ $gbl_contact_email = get_field('gbl_contact_email', 'options');
 $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 ?>
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
 
 <main id="main-content"> 
-	<div class="container">
+	<div class="container-fluid">
 		
 		<?php if ($sponsor_active) { ?>
 		<article <?php post_class('pg-content'); ?>>

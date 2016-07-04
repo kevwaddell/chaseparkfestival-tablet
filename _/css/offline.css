@@ -3298,9 +3298,6 @@ body#offline-503 h1,
 body#offline-503 h2 {
   margin: 0px;
 }
-body#offline-503 .container {
-  min-width: 1170px;
-}
 body#offline-503 .offline-bg-imgs,
 body#offline-503 .offline-guitar-bg,
 body#offline-503 .offline-grass-bg {

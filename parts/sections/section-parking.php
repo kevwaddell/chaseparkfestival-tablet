@@ -119,7 +119,7 @@ $location = get_field('cpf_map_details', 'options');
 	
 	<div class="pg-section-full">
 		<h2 class="section-header text-center bg-col-orange txt-col-wht tk-azo-sans-uber">Getting here…</h2>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				
 				<div class="col-xs-6">

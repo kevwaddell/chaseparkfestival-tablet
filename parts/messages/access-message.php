@@ -2,7 +2,7 @@
 $this_year = date('Y', time());
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
-<div class="container">
+<div class="container-fluid">
 	<div class="no-content-message text-center">
 		
 		<figure class="message-img in-block">

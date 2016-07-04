@@ -48,7 +48,7 @@ $prev_years = get_posts($prev_years_args);
 <main id="main-content">
 	<article <?php post_class(); ?>>
 		<header class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-			<div class="container">
+			<div class="container-fluid">
 				<h1><?php the_title(); ?></h1>
 			</div>
 		</header>
@@ -87,10 +87,10 @@ $prev_years = get_posts($prev_years_args);
 		   <?php if ($imgs_total > 12) { ?>
 		   <div class="btn-wrap">
 			   	<button id="gallery-view-more-btn" class="btn btn-block btn-lg tk-azo-sans-uber">
-			   		<span class="container">View More<i class="fa fa-plus-circle fa-2x pull-right"></i></span>
+			   		<span class="container-fluid">View More<i class="fa fa-plus-circle fa-2x pull-right"></i></span>
 			   	</button>
 			   	<button id="gallery-view-less-btn" class="btn btn-block btn-lg tk-azo-sans-uber hidden">
-			   		<span class="container">Close gallery<i class="fa fa-minus-circle fa-2x pull-right"></i></span>
+			   		<span class="container-fluid">Close gallery<i class="fa fa-minus-circle fa-2x pull-right"></i></span>
 			   	</button>
 			</div>
 		   <?php } ?>

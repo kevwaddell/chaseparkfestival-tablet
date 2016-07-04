@@ -6,7 +6,7 @@ $second_stage_price = get_field('second_stage_price', 'options');
 
 <section id="stage-sponsor-package" class="pg-section-full bg-col-blue-dk orange-border-top pad-bot-40">
 	<h2 class="section-header text-center bg-col-orange txt-col-wht tk-azo-sans-uber">Stage Sponsorship</h2>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="stage-sponsor-text txt-col-wht pad-top-40 mag-bot-30 bold">
 			<?php echo $stage_sponsor_text; ?>
 		</div>

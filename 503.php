@@ -109,7 +109,7 @@
 		</div>
 		<div class="cpf-wrapper">
 			<header id="branding">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-10 col-xs-offset-1">
 							<div class="logo-wrap">
@@ -125,7 +125,7 @@
 				</div>
 			</header>
 			<main id="main-content">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="message">
 						<?php echo $this->mamo_template_tag_message(); ?>
 						<div class="contact-info text-center txt-col-orange"><strong>For more Information contact <?php echo $contact_name; ?> on<br> <a href="tel:<?php echo $contact_tel_link; ?>"><?php echo $contact_tel; ?></a> or <a href="mailto:<?php echo $contact_email; ?>"><?php echo $contact_email; ?></a> or use the contact form below.</strong></div>
@@ -134,7 +134,7 @@
 					<a href="http://www.seetickets.com/event/chase-park-festival-2016/chase-park/992864" target="_blank" class="btn btn-default btn-block btn-lg tk-azo-sans-uber txt-col-wht">Buy Your Tickets</a>
 					</div>
 					
-					<div class="container">
+					<div class="container-fluid">
 					<div class="contact-form clearfix">
 							<form action="<?php echo get_option('home'); ?>/" method="post">
 								<div class="row">
@@ -171,7 +171,7 @@
 
 			</main><!-- #main-content -->
 			<footer id="site-info" class="txt-col-wht">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="copyright text-center">&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>. All Rights reserved.</div>
 				</div>
 				<a href="/login/" class="login-btn">Login</a>

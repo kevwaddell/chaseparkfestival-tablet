@@ -1,6 +1,6 @@
 <nav id="main-nav" class="bg-col-orange nav-closed">
 	<div class="nav-wrapper">
-		<div class="container">
+		<div class="container-fluid">
 			
 		<?php wp_nav_menu( array( 
 			'container' => 'false', 

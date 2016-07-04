@@ -1,5 +1,5 @@
 <div id="attitude-plug">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-4">
 				<div class="plug-logo"></div>

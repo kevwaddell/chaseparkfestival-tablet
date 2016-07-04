@@ -25,7 +25,7 @@ $social_links = get_field('gbl_social_links', 'options');
 			<div class="footer-grass-bg"></div>
 		</div>
 		
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-7">
 					<?php wp_nav_menu(array( 
@@ -64,7 +64,7 @@ $social_links = get_field('gbl_social_links', 'options');
 		
 	</div>
 	<div class="footer-base txt-col-wht">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="col-xs-6">
 				<strong>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>. All Rights reserved.</strong>
 			</div>

@@ -16,7 +16,7 @@ $inner_w = 300 * count($artists);
 ?>
 <section id="artists-slider">
 	<div class="strip-header bg-col-orange text-uppercase tk-azo-sans-uber">
-		<div class="container">
+		<div class="container-fluid">
 			<h2 class="txt-col-wht">Artist Profiles</h2>
 		</div>
 	</div>

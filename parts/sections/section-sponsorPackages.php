@@ -6,7 +6,7 @@ $packages_benefit_list = get_field('packages_benefit_list', 'options');
 
 <section id="sponsor-packages" class="pg-section-full blue-border-top pad-bot-40">
 	<h2 class="section-header text-center bg-col-blue txt-col-wht tk-azo-sans-uber">Sponsorship packages</h2>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row pad-top-40">
 			<div class="col-xs-6">
 				<div class="package-wrap">

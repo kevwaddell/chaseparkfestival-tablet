@@ -12,12 +12,12 @@ $year = date("Y", time());
 $press_active = get_field('press_page_active', 'options');
 ?>
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
 <main id="main-content"> 
-	<div class="container">
+	<div class="container-fluid">
 <?php if ($press_active) { ?>
 <?php  
 $past_media_coverage = get_field('past_media_coverage', 'options');
@@ -60,7 +60,7 @@ $press_quotes = get_field('press_quotes', 'options');
 			<div class="carousel-inner" role="listbox">
 				<?php foreach ($press_quotes as $k => $q) { ?>
 				<div class="item<?php echo ($k == 0) ? " active":""; ?>">
-					<div class="container">
+					<div class="container-fluid">
 						<div class="quote-wrap">
 							<div class="media-title text-center bold text-uppercase txt-col-blue-dk"><?php echo $q['media_title']; ?></div>
 							<blockquote class="media-quote text-center bold txt-col-orange"><?php echo $q['quote']; ?></blockquote>

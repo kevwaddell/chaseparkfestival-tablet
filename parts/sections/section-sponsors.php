@@ -15,7 +15,7 @@ $slides_count = 1;
 	<h3 class="panel-header in-block bg-col-wht tk-azo-sans-uber txt-col-orange"><?php echo $section_title; ?></h3>
 	<div class="sponsors-outer-wrap">
 		<div id="sponsor-slide-<?php echo $slides_count; ?>" class="sponsors-inner-wrap active">
-			<div class="container">
+			<div class="container-fluid">
 			<?php foreach ($sponsors_and_stalls as $sponsor) { 
 			$sponsor_counter++;	
 			?>
@@ -34,7 +34,7 @@ $slides_count = 1;
 			</div>
 		</div>
 		<div id="sponsor-slide-<?php echo $slides_count; ?>" class="sponsors-inner-wrap inactive">
-			<div class="container">
+			<div class="container-fluid">
 			<?php } ?>
 			
 			<?php } ?>
@@ -43,7 +43,7 @@ $slides_count = 1;
 	</div>
 	<?php if ($slides_total > 1) { ?>
 	<div class="slides-nav tk-azo-sans-uber text-center">
-		<div class="container">
+		<div class="container-fluid">
 			<?php for($i = 1; $i <= $slides_total; $i++) { ?>
 			<a href="#sponsor-slide-<?php echo $i; ?>" class="<?php echo ($i == 1) ? 'active':'inactive'; ?>"><?php echo $i; ?></a>
 			<?php } ?>

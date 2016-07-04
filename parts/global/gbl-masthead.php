@@ -1,7 +1,7 @@
 <header id="gbl-masthead" class="masthead" role="banner">
 	<div class="mast-bg-stripes"></div>
 	
-	<div class="container">
+	<div class="container-fluid">
 		
 		<div class="row">
 			<div class="col-xs-10 col-xs-offset-1">
@@ -15,7 +15,7 @@
 	</div>
 	
 	<div class="breadcrumbs bg-col-blue tk-azo-sans-uber wht-drop-shad" typeof="BreadcrumbList" vocab="http://schema.org/">
-		<div class="container">
+		<div class="container-fluid">
 		<?php if(function_exists('bcn_display')){ bcn_display(); }?>
 		</div>
 	</div>

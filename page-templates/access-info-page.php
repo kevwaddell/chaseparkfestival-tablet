@@ -14,7 +14,7 @@ $access_info_active = get_field('access_info_active', 'options');
 ?>
 
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
@@ -25,13 +25,13 @@ $access_info_active = get_field('access_info_active', 'options');
 	<article <?php post_class(); ?>>
 	
 		<div class="main-txt with-pad">
-			<div class="container">
+			<div class="container-fluid">
 			<?php the_content(); ?>
 			</div>
 		</div>
 		
 		<div class="info-panels mag-bot-40">
-			<div class="container">
+			<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-6">
 					<?php get_template_part( 'parts/panels/around', 'site' ); ?>

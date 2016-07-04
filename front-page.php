@@ -4,7 +4,7 @@
 <?php if ( have_posts() ): while ( have_posts() ) : the_post(); ?>
 	
 	<article <?php post_class("hp-content"); ?>>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row mag-bot-30">
 				<div class="col-xs-7">
 					<div class="main-txt">

@@ -3312,9 +3312,6 @@ body {
   height: 100%;
   overflow: hidden;
 }
-.container {
-  min-width: 1170px;
-}
 /* FONTS */
 h1,
 h2,
@@ -3469,7 +3466,7 @@ h5 {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-#main-nav .container {
+#main-nav .container-fluid {
   position: relative;
 }
 #main-nav #close-nav-btn {
@@ -3649,7 +3646,7 @@ a.book-tickets-btn-lg:focus:after {
   -o-background-size: cover;
   background-size: cover;
 }
-#hp-masthead .container {
+#hp-masthead .container-fluid {
   padding-top: 150px;
   height: 100%;
   position: relative;
@@ -6050,7 +6047,7 @@ footer#footer-site-info .footer-grass-bg {
   -o-background-size: contain;
   background-size: contain;
 }
-footer#footer-site-info .container {
+footer#footer-site-info .container-fluid {
   position: relative;
   z-index: 2;
 }

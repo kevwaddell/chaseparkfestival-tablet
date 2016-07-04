@@ -12,12 +12,12 @@ $year = date("Y", time());
 $videos_active = get_field('videos_active');
 ?>
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
 <main id="main-content"> 
-	<div class="container">
+	<div class="container-fluid">
 <?php if ($videos_active) { ?>
 <?php  
 $videos = get_field('videos');	

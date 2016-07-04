@@ -9,14 +9,14 @@
 	?>
 	<article <?php post_class(); ?>>
 		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-			<div class="container">
+			<div class="container-fluid">
 				<?php echo get_the_title($post->post_parent); ?>
 			</div>
 		</div>
 	
 		<div class="main-txt with-pad">
 			
-			<div class="container">
+			<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-6">
 					<header class="main-text-header">

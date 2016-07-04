@@ -6,7 +6,7 @@ $service_extra_info = get_field('service_extra_info', 'options');
 
 <section id="service-assistance-section" class="pg-section-full bg-col-orange">
 		<h2 class="section-header text-center bg-col-wht txt-col-orange tk-azo-sans-uber">Service and assistance</h2>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				
 				<div class="col-xs-6">
@@ -35,7 +35,7 @@ $service_extra_info = get_field('service_extra_info', 'options');
 		</div>
 		<?php if ($service_extra_info) { ?>
 		<div class="extra-info-panel bg-col-orange-dk">
-			<div class="container text-center">
+			<div class="container-fluid text-center">
 				<i class="fa fa-plus bg-col-orange text-center txt-col-wht"></i>
 				<span class="txt-col-wht bold"><?php echo $service_extra_info; ?></span>
 			</div>	
