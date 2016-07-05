@@ -15,10 +15,8 @@ $artists = get_posts($artists_args);
 $inner_w = 300 * count($artists);
 ?>
 <section id="artists-slider">
-	<div class="strip-header bg-col-orange text-uppercase tk-azo-sans-uber">
-		<div class="container-fluid">
-			<h2 class="txt-col-wht">Artist Profiles</h2>
-		</div>
+	<div class="strip-header bg-col-orange text-uppercase tk-azo-sans-uber text-center">
+		<h2 class="txt-col-wht">Artist Profiles</h2>
 	</div>
 	
 	<div class="slider-nav-btns">

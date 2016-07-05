@@ -13,10 +13,8 @@ $year = date("Y", time());
 $access_info_active = get_field('access_info_active', 'options');
 ?>
 
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php the_title(); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php the_title(); ?></h1>
 </div>
 
 <?php if ($access_info_active) { ?>
@@ -33,10 +31,8 @@ $access_info_active = get_field('access_info_active', 'options');
 		<div class="info-panels mag-bot-40">
 			<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-6">
-					<?php get_template_part( 'parts/panels/around', 'site' ); ?>
-				</div>
-				<div class="col-xs-6">		
+				<div class="col-xs-10 col-xs-offset-1">
+					<?php get_template_part( 'parts/panels/around', 'site' ); ?>	
 					<?php get_template_part( 'parts/panels/access', 'enquiries' ); ?>
 				</div>
 			</div>

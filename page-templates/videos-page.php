@@ -11,10 +11,8 @@ Template Name: Videos page template
 $year = date("Y", time());
 $videos_active = get_field('videos_active');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php the_title(); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php the_title(); ?></h1>
 </div>
 <main id="main-content"> 
 	<div class="container-fluid">
@@ -22,29 +20,21 @@ $videos_active = get_field('videos_active');
 <?php  
 $videos = get_field('videos');	
 global $wp_embed;
-$video_counter = 0;
 ?>
 	<article <?php post_class('pg-content'); ?>>
 
-		<section id="videos-section" class="video-grid">
+		<section id="videos-section" class="video-grid pad-top-30">
 			<div class="row">
-				<?php foreach ($videos as $video) { 
-				$video_counter++;
-				?>
-					<div class="col-xs-6 video-wrap">
+				<div class="col-xs-10 col-xs-offset-1">
+					<?php foreach ($videos as $video) { ?>
+					<div class="video-wrap">
 						<h3 class="txt-col-blue text-center"><?php echo $video['video_title']; ?></h3>
-						<iframe width="500" height="281" src="<?php echo $video['video_url']; ?>" frameborder="0" allowfullscreen></iframe>
+						<iframe width="600" height="338" class="mag-bot-20" src="<?php echo $video['video_url']; ?>" frameborder="0" allowfullscreen></iframe>
 					</div>
-			<?php if ($video_counter == 2) { 
-			$video_counter;
-			?>
+					<?php } ?>
+				</div>
 			</div>
-			<div class="row">		
-			<?php } ?>
-			
-				<?php } ?>
-			</div>
-		</div>
+		</section>
 
 	</article>
 

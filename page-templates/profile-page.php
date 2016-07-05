@@ -7,10 +7,8 @@ Template Name: User profile page template
 <?php get_header(); ?>	
 
 <?php if ( have_posts() ): while ( have_posts() ) : the_post(); ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php the_title(); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php the_title(); ?></h1>
 </div>
 
 <main id="main-content" class="notes-bg-orange"> 

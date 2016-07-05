@@ -1,33 +1,33 @@
 .strip-header {
-.h(9);
-.font-size(5);	
-.line-h(9);	
+.h(5);
+.font-size(3);	
+.line-h(5);	
 	h1, h2 {
 	.mag-bot-0;	
-	.font-size(5);	
-	.line-h(9);	
+	.font-size(3);	
+	.line-h(5);	
 	}
 }
 
 #main-content {
 
 	p {
-	.font-size(2);
-	.line-h(3);	
+	.font-size(1.8);
+	.line-h(2.8);	
 	.mag-bot(2);
 		&:last-child {
 		.mag-bot(0);	
 		}
 		
 		&.txt-lg {
-		.font-size(2.8);	
-		.line-h(3.8);
+		.font-size(2.5);	
+		.line-h(3.5);
 		}
 	}
 	
 	ul, ol {
-	.font-size(2);
-	.line-h(3);		
+	.font-size(1.8);
+	.line-h(2.8);		
 	}
 	
 	hr {
@@ -36,7 +36,6 @@
 	.border-bot(@orange; 0.3);
 	//.no-border;
 	.h(1.6);
-	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	.bg-col-blue;
@@ -71,18 +70,6 @@
 		}
 	}
 	
-	h1.fest-tag {
-	.mag-left(-1);
-	.mag-top(-1);
-	.bg-img("festival-for-everyone-tag.png");
-	.bg-repeat;
-	background-position: left top;
-	.bg-size(contain);	
-	.h(17);
-	.mag-bot(0);
-	.indent(-9999px);
-	}
-	
 	.hp-content h1 {
 	.font-size(4.5);	
 	.line-h(5);	
@@ -96,8 +83,8 @@
 		}
 		
 		h2 {
-		.font-size(4.5);	
-		.line-h(5);
+		.font-size(3.5);	
+		.line-h(4);
 		}
 
 		.main-text-header {
@@ -149,12 +136,6 @@
 		
 		.main-text-body {
 			
-			figure.feat-img {
-			.mag-bot-30;
-			.over-hide;
-			.rounded(20px);
-			}
-			
 			blockquote {
 			.border-col(@orange);
 			.bold;
@@ -164,6 +145,21 @@
 				.line-h(3.5);
 				font-style: italic;	
 				 }
+			}
+		}
+		
+		.feat-img {
+		width: 100%;
+		.h(40);
+		.bg-repeat;
+		background-position: center top;
+		.bg-size;
+		.mag-bot-30;
+		.over-hide;
+		.rounded(20px);
+		
+			@media screen and (orientation: portrait) {
+			.h(30);
 			}
 		}
 		

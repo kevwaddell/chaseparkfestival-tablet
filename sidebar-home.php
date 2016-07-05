@@ -4,7 +4,7 @@ $hp_artist_list_active = get_field('hp_artist_list_active', 'options');
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
 
-<aside class="col-xs-5 sidebar">
+<aside class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 sidebar mag-top-mob">
 	<div class="info-panel blue-grad with-icon">
 		<i class="icon fa fa-microphone bg-col-blue-dk txt-col-wht text-center"></i>
 		<h3 class="txt-col-orange text-center tk-azo-sans-uber">Artist Line up</h3>

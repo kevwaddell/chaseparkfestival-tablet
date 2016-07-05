@@ -1,9 +1,7 @@
 <?php get_header(); ?>	
 
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php echo get_the_title( get_option('page_for_posts')); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php echo get_the_title( get_option('page_for_posts')); ?></h1>
 </div>
 
 <?php if ( have_posts() ): ?>

@@ -3,24 +3,24 @@
 //.gradient(@blue, @wht, @blue);
 	#main-nav-btn {
 	.abs;
-	.top(3);
+	.top(1.5);
 	.right(1.5);
 	//.mag-top(3);	
 	.no-rounded;
 	.no-border;
-	.w(5);
-	.h(5);
+	.w(4);
+	.h(4);
 	.pad-all(0);
 		span {
 		.abs;
 		text-align: right;
 		.w(10);
 		.pad-right(1);
-		.h(5);
-		.line-h(5);	
+		.h(4);
+		.line-h(4);	
 		.left(-10);
 		.top(0);
-		.font-size(2);
+		.font-size(1.6);
 		}
 		i {
 		.txt-col-orange;	
@@ -41,7 +41,8 @@
 }
 
 #hp-masthead {
-.h(75);
+//.h(75);
+height: 97vh;
 .bg-img("hp-mast-image-bg.jpg");
 .bg-repeat;
 background-position: right center;
@@ -62,14 +63,14 @@ background-position: right center;
 	}
 	
 	.container-fluid {
-	.pad-top(15);
+	.pad-top(10);
 	height: 100%;	
 	.rel;
 	z-index: 2;
 	}
 	
 	.logo-wrap {
-	.w(94.5);
+	width: 100%;
 	.h(30);	
 	.mag-top(0);
 	margin-left: auto;
@@ -96,8 +97,6 @@ background-position: right center;
 		.in-block;	
 		.txt-col-wht;
 		.font-size(2.6);
-		.pad-left(3);
-		.pad-right(3);	
 		//.mag-left(-2);
 			span {
 			.in-block;
@@ -120,15 +119,35 @@ background-position: right center;
 	.drop-shadow(0, 3px, 10px, 0.7);
 	.no-rounded;
 	}
+	
+	@media screen and (orientation: portrait) {
+	height: 70vh;
+		.festival-tag {
+		.font-size(2);	
+		letter-spacing: wpx;
+		}
+		
+		a.book-tickets-btn-lg {
+		.h(9);
+		.line-h(8);
+		.font-size(4);
+			&:before, &:after {
+			.w(8);
+			.line-h(8);	
+			.font-size(4);
+			}
+		}
+	}
 
 }
 
 #gbl-masthead {
-.h(28);	
+.h(20);	
 .bg-img("gbl-mast-image-bg.jpg");
 .bg-repeat;
-background-position: right center;
+background-position: center top;
 .bg-size;
+.border-bot(@wht; 0.5);
 	
 	.mast-bg-stripes {	
 	.abs;
@@ -144,7 +163,7 @@ background-position: right center;
 	.bg-size;
 	}
 	
-	.container {
+	.container-fluid {
 	height: 100%;	
 	.rel;
 	z-index: 2;
@@ -152,7 +171,7 @@ background-position: right center;
 	
 	.logo-wrap {
 	width: 100%;
-	.h(28);	
+	.h(16);	
 	//.pad-top(2);
 	//.bg-img("gbl-logo-wrap-bg.png");
 	.bg-repeat;
@@ -161,62 +180,49 @@ background-position: right center;
 	text-align: center;
 		a.logo {
 		.in-block;
-		.w(51);
-		.h(23);	
+		width: 100%;
+		.h(16);	
 		.bg-img("logo-lrg.png");
 		.bg-repeat;
-		background-position: center center;
+		background-position: left center;
 		.bg-size(contain);
 		}
 	}
 	
 	.breadcrumbs {
-	.rel;	
-	.line-h(5);	
-	.top(-5);
+	.abs;	
+	.bottom(0);
+	.left(2);
+	width: 100%;
+	.line-h(4);	
+	//.left(0);
+	//.top(-4);
 	z-index: 2;
-	//.rounded(8px);
-	//.transform(skewX(-10deg));	
 	.txt-col-wht;
-	.font-size(1.6);
+	.font-size(1.4);
 	
 		a {
 		.block;
-		.txt-col-wht;
+		.txt-col-orange;
 		.no-text-dec;	
-		.bg-col-orange-dk;
-		.mag-left(-1.5);
-		.mag-right(-1.5);
-		.pad-left(1.5);
-		.pad-right(1.5);
-		.border-right(@wht; 0.5);
+		.pad-right(1);
+		.pad-left(1);
 			&:hover, &:active, &:focus {
-			.bg-col-blue-dk;
+			.txt-col-orange;
 			}
 		}
-	
-		a.home {
-		.bg-col-orange;
-		//.no-border;
-			&:hover, &:active, &:focus {
-			.bg-col-blue-dk;
-			}
-		}
-		
-		
+
 		span[property="itemListElement"] {
 		.in-block;
-		//.mag-right(0.5);	
-		.pad-left(1.5);
-		.pad-right(1.5);
+		.bg-col-wht;
+		.border-radius(8px, 0, 0, 8px);
+		.mag-right(0.5);	
 		.transform(skewX(-10deg));
 		
-			&:first-child {
-			.pad-left(1.5);
-			}
-			
-			&:last-child {
-			.bg-col-blue-dk;
+			span {
+			.pad-right(1);	
+			.pad-left(1);
+			.txt-col-blue;
 			}
 		}
 		

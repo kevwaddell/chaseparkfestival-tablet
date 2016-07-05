@@ -8,8 +8,8 @@ $packages_benefit_list = get_field('packages_benefit_list', 'options');
 	<h2 class="section-header text-center bg-col-blue txt-col-wht tk-azo-sans-uber">Sponsorship packages</h2>
 	<div class="container-fluid">
 		<div class="row pad-top-40">
-			<div class="col-xs-6">
-				<div class="package-wrap">
+			<div class="col-xs-10 col-xs-offset-1 col-md-7">
+				<div class="package-wrap mag-bot-30">
 					<div class="icon-rosette"></div>
 					<h3 class="tk-azo-sans-uber txt-col-blue-dk text-uppercase mag-bot-0"><?php echo $sponsorship_packages[0]['package_type']; ?></h3>
 					<p class="price bold txt-col-orange">&pound;<?php echo $sponsorship_packages[0]['package_price']; ?></p>	
@@ -19,8 +19,7 @@ $packages_benefit_list = get_field('packages_benefit_list', 'options');
 						<?php } ?>
 					</ul>
 				</div>
-			</div>
-			<div class="col-xs-6">
+				
 				<div class="package-wrap mag-bot-30">
 					<div class="icon-rosette"></div>
 					<h3 class="tk-azo-sans-uber txt-col-blue-dk text-uppercase mag-bot-0"><?php echo $sponsorship_packages[1]['package_type']; ?></h3>
@@ -41,6 +40,9 @@ $packages_benefit_list = get_field('packages_benefit_list', 'options');
 						<?php } ?>
 					</ul>
 				</div>
+
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
 				<div class="benefits-list bg-col-orange txt-col-wht">
 					<span class="bold">All sponsors benefit from 
 huge opportunities including:</span>

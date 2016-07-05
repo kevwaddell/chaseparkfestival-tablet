@@ -15,10 +15,8 @@ $gbl_contact_name = get_field('gbl_contact_name', 'options');
 $gbl_contact_email = get_field('gbl_contact_email', 'options');
 $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php the_title(); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php the_title(); ?></h1>
 </div>
 
 <main id="main-content"> 
@@ -27,18 +25,26 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 		<?php if ($sponsor_active) { ?>
 		<article <?php post_class('pg-content'); ?>>
 			<div class="row">
-				<div class="col-xs-8">
+				<div class="col-xs-10 col-xs-offset-1">
+				
 					<div class="main-txt with-pad">
-						<?php the_content(); ?>
+							<?php the_content(); ?>
 					</div>
+					
+					<aside class="sidebar pad-bot-40">
+					
+						<div class="row">
+							<div class="col-xs-8">
+								<?php get_template_part( 'parts/panels/sponsor', 'enquiries' ); ?>
+							</div>
+							<div class="col-xs-4">
+								<?php get_template_part( 'parts/panels/download', 'package' ); ?>
+							</div>
+						</div>
+					
+					</aside>
+				
 				</div>
-				<aside class="col-xs-4 sidebar pad-top-40 pad-bot-40">
-					
-					<?php get_template_part( 'parts/panels/sponsor', 'enquiries' ); ?>
-					
-					<?php get_template_part( 'parts/panels/download', 'package' ); ?>
-					
-				</aside>
 			</div>
 			
 		</article>

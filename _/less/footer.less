@@ -1,18 +1,18 @@
 footer#footer-site-info {
-.border-top(@wht; 1);
+.border-top(@wht; 0.5);
 	
 	.footer-top {
-	.min-h(50);
+	//.min-h(50);
 	.rel;
 	.pad-top(3);
-	.pad-bot(3);
+	//.pad-bot(3);
 	.gradient(@blue, @wht, @blue);	
 	.border-bot(@wht; 0.2);
 	}
 	
 	.footer-base {
-	.min-h(5);	
-	.line-h(5);
+	//.min-h(5);	
+	.line-h(4);
 	}
 	
 	.footer-bg-imgs, .footer-guitar-bg, .footer-grass-bg {
@@ -24,16 +24,13 @@ footer#footer-site-info {
 	.left(0);
 	width: 100%;
 	height: 100%;
-	.bg-img("footer-cloud-left.png");
-	.bg-repeat;
-	background-position: left top;
 	}
 	
 	.footer-guitar-bg {	
 	.top(0);
 	.right(0);	
 	height: 100%;
-	.w(25);
+	width: 50%;
 	.bg-img("hp-mast-guitar-bg.png");
 	.bg-repeat;
 	background-position: right center;
@@ -41,7 +38,7 @@ footer#footer-site-info {
 	}
 	
 	.footer-grass-bg {	
-	.bottom(0);
+	.bottom(9);
 	.left(0);	
 	.h(15);
 	width: 100%;
@@ -53,7 +50,7 @@ footer#footer-site-info {
 	
 	.container-fluid {
 	.rel;
-	z-index: 2;	
+	//z-index: 2;	
 	}
 	
 	ul.footer-menu {
@@ -68,7 +65,6 @@ footer#footer-site-info {
 			i {
 			.in-block;
 			.w(3);
-				
 			}
 		}
 		
@@ -86,7 +82,7 @@ footer#footer-site-info {
 	}
 	
 	.ticket-details {
-	.pad-bot(3);
+	.pad-bot(2);
 		.btn {	
 		.pad-all(0);
 		.line-h(6);
@@ -126,8 +122,8 @@ footer#footer-site-info {
 	.bold;
 	.txt-col-wht;
 	.pad-bot(2);
-	.font-size(1.8);
-	.line-h(2.2);
+	.font-size(1.6);
+	.line-h(2);
 		a {
 		.txt-col-wht;	
 		.no-text-dec;
@@ -138,12 +134,16 @@ footer#footer-site-info {
 	}
 	
 	.contact-info {
-	.font-size(1.8);	
-	.line-h(2.2);
-	.pad-bot(3);
+	.font-size(1.6);	
+	.line-h(2);
+	.pad-all(1);
+	//.bg-col-wht;
+	.trans-bg(@wht; 0.8);
+	.mag-bot(2);
+	.rounded(8px);
 		a {
 		.no-text-dec;
-		.txt-col-wht;
+		.txt-col-blue;
 			&:hover, &:active, &:focus {
 			.txt-col-blue-dk;
 			text-decoration: underline;
@@ -152,55 +152,54 @@ footer#footer-site-info {
 	}
 	
 	.date-location {
+	.rel;
+	z-index: 10;
+	.border-top(@wht; 0.2);
 		
 		.dl-item {
-		.line-h(6);	
-		.font-size(2);
-		.pad-left(2);
-		.pad-right(2);
-		.rounded(8px);
-		.transform(skewX(-10deg));	
+		.line-h(4);	
+		.font-size(1.6);
+		.pad-left(1);
+		.pad-right(1);
+		text-align: center;
+		.border-right(@wht; 0.2);
 		}
 		
 		.footer-date {
-		width: 35%;	
-		.pad-right(4);
+		width: 50%;	
 		}
 		.footer-location {
-		width: 56%;	
-		.mag-left(-2);	
-		text-align: center;
+		width: 35%;		
 		}
 		.footer-time {
-		width: 12%;	
-		.mag-left(-2);	
-		text-align: right;
+		width: 15%;	
+		.no-border;	
 		}
 	}
 	
 	.social-links {
-	.pad-top(3);
 	text-align: center;
+	.border-top(@wht; 0.2);
+	.rel;
+	z-index: 10;
+	.clearfix;
 		a {
-		.in-block;	
-		.w(10);
-		.h(10);
-		.border(@wht; 0.5);
-		.rounded(100%);
-		.mag(0;1;0;1);
-		.drop-shadow(0, 3px, 10px, 0.7);
+		.fleft;	
+		width: 50%;
+		.h(5);
 		.txt-col-wht;
 		.no-text-dec;
 		.bg-col-wht;
 			i {
 			.block;
-			.w(9);
-			.line-h(9);	
+			width: 100%;
+			height: 100%;
 			text-align: center;
-			.font-size(5);
-			.rounded(100%);
+			.font-size(3);
+			.line-h(5);
 				&.fa-facebook {
 				.bg-col-facebook;	
+				.border-right(@wht; 0.2);
 				}
 				&.fa-twitter {
 				.bg-col-twitter;	
@@ -226,7 +225,7 @@ footer#footer-site-info {
 	}
 	
 	ul.footer-base-menu {
-				
+	.mag-bot-0;		
 		a {
 		.txt-col-wht;
 		.no-text-dec;	

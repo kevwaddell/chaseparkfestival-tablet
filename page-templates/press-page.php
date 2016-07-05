@@ -11,10 +11,8 @@ Template Name: Press page template
 $year = date("Y", time());
 $press_active = get_field('press_page_active', 'options');
 ?>
-<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-	<div class="container-fluid">
-		<h1><?php the_title(); ?></h1>
-	</div>
+<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+	<h1><?php the_title(); ?></h1>
 </div>
 <main id="main-content"> 
 	<div class="container-fluid">
@@ -27,7 +25,7 @@ $press_quotes = get_field('press_quotes', 'options');
 		<article <?php post_class('pg-content'); ?>>
 	
 				<div class="row">
-					<div class="col-xs-7">
+					<div class="col-xs-10 col-xs-offset-1">
 						
 						<div class="main-txt with-pad">
 							<?php the_content(); ?>
@@ -38,7 +36,7 @@ $press_quotes = get_field('press_quotes', 'options');
 	
 					</div>
 					
-					<aside class="col-xs-5 sidebar pad-top-40 mag-bot-50">
+					<aside class="col-xs-10 col-xs-offset-1 sidebar mag-bot-50">
 												
 						<?php get_template_part( 'parts/panels/media', 'coverage' ); ?>
 						
@@ -60,12 +58,10 @@ $press_quotes = get_field('press_quotes', 'options');
 			<div class="carousel-inner" role="listbox">
 				<?php foreach ($press_quotes as $k => $q) { ?>
 				<div class="item<?php echo ($k == 0) ? " active":""; ?>">
-					<div class="container-fluid">
-						<div class="quote-wrap">
-							<div class="media-title text-center bold text-uppercase txt-col-blue-dk"><?php echo $q['media_title']; ?></div>
-							<blockquote class="media-quote text-center bold txt-col-orange"><?php echo $q['quote']; ?></blockquote>
-							<a href="<?php echo $q['article_link']; ?>" target="_blank" class="media-link block text-center bold" rel="nofollow">View the full article on the <?php echo $q['media_title']; ?> website <i class="fa fa-chevron-right fa-lg pull-right"></i></a>
-						</div>
+					<div class="quote-wrap">
+						<div class="media-title text-center bold text-uppercase txt-col-blue-dk"><?php echo $q['media_title']; ?></div>
+						<blockquote class="media-quote text-center bold txt-col-orange"><?php echo $q['quote']; ?></blockquote>
+						<a href="<?php echo $q['article_link']; ?>" target="_blank" class="media-link block text-center bold" rel="nofollow">View the full article on the <?php echo $q['media_title']; ?> website <i class="fa fa-chevron-right fa-lg pull-right"></i></a>
 					</div>
 				</div>
 				<?php } ?>

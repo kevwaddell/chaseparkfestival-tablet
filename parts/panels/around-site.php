@@ -2,7 +2,7 @@
 $around_site_text = get_field('around_site_text', 'options');	
 ?>
 
-<div class="info-panel panel-orange add-min-h">
+<div class="info-panel panel-orange add-min-h mag-bot-30">
 	<h3 class="panel-header tk-azo-sans-uber text-center txt-col-orange mag-bot-20">Around the site</h3>
 	<div class="panel-inner">
 		<div class="panel-imgs-2 mag-bot-20">

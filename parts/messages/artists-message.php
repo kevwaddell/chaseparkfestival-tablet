@@ -3,7 +3,9 @@ $this_year = date('Y', time());
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
 <div class="container-fluid">
-	<div class="no-content-message text-center">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="no-content-message text-center">
 		
 		<figure class="message-img in-block">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
@@ -22,5 +24,7 @@ $social_links = get_field('gbl_social_links', 'options');
 			<?php } ?>
 		</div>
 		<?php } ?>
+	</div>
+		</div>
 	</div>
 </div>

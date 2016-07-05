@@ -42,17 +42,8 @@ $found_posts = $wp_query->found_posts;
 <main id="main-content"<?php echo ($found_posts == 0) ? ' class="notes-bg-orange border-bot"':''; ?>>
 <?php if ( have_posts() ): ?>
 	<section id="artist-posts">
-		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-9">
-						<h1><?php echo get_the_title($artists_pg); ?></h1>
-					</div>
-					<div class="col-xs-3">
-						
-					</div>
-				</div>
-			</div>
+		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+			<h1><?php echo get_the_title($artists_pg); ?></h1>
 		</div>
 		
 	<?php while ( have_posts() ) : the_post(); ?>

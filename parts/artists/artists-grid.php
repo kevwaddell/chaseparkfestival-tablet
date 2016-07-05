@@ -43,17 +43,8 @@ array_unshift($more_artists, $current_y_post[0]);
 <main id="main-content">
 	
 	<section id="artist-posts">
-		<header class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-9">
-						<h1><?php echo get_the_title($post); ?></h1>
-					</div>
-					<div class="col-xs-3">
-						
-					</div>
-				</div>
-			</div>
+		<header class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
+			<h1><?php echo get_the_title($post); ?></h1>
 		</header>
 		
 	<?php foreach ( $artists as $post ) : setup_postdata( $post ); ?>
