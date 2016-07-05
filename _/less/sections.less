@@ -1153,10 +1153,11 @@ z-index: 2000;
 	}/* .line-up-message */
 	
 	#artists-slider {
-		
+		.strip-header {
+		.border-bot(@wht; 0.5);		
+		}
 		.artists-slider-outer {
-		.border-top(@wht; 0.5);
-		.h(21);
+		.h(16);
 		.over-hide;	
 		.rel;
 		}
@@ -1166,13 +1167,13 @@ z-index: 2000;
 		.abs;
 		.left(0);
 		.top(0);
-		.h(20);
+		.h(16);
 		}
 		
 		.slider-item {
-		.w(30);
+		.w(22);
 		.border-right(@wht; 0.5);
-		.h(20);
+		.h(16);
 		.fleft;	
 		.bg-repeat();
 		background-position: center center;
@@ -1192,8 +1193,8 @@ z-index: 2000;
 				.left (0);	
 				.trans-bg(@blk; 0.8);
 				.pad(1;.5;1;.5);
-				.font-size(2);
-				.line-h(1.8);
+				.font-size(1.5);
+				.line-h(1.4);
 				}	
 				
 				&:hover, &:active, &:focus {
@@ -1223,15 +1224,15 @@ z-index: 2000;
 		
 		button#scroller-right-btn, button#scroller-left-btn {
 		.abs;
-		.top(6);
-		.w(6);
-		.h(6);
+		.top(4);
+		.w(5);
+		.h(5);
 		.trans-bg(@wht; 0.8);
 		.no-border;
 		z-index: 10;
 		.pad-all(0);
 			i {
-			.line-h(6.5);
+			.line-h(5.5);
 			}
 			
 			&:hover, &:active, &:focus {

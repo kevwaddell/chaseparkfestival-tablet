@@ -12,7 +12,7 @@ $artists = get_posts($artists_args);
 ?>
 
 <?php if ($artists) { 
-$inner_w = 300 * count($artists);
+$inner_w = 220 * count($artists);
 ?>
 <section id="artists-slider">
 	<div class="strip-header bg-col-orange text-uppercase tk-azo-sans-uber text-center">

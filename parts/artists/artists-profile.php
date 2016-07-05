@@ -20,7 +20,7 @@
 						
 						<div class="feat-img" style="background-image: url(<?php bg_img($post); ?>)"></div>
 
-						<header class="main-text-header">
+						<header class="main-text-header text-center">
 																		
 							<?php if ($artist_links_active && in_array('social', $artist_links_active)) { 
 							$artist_social_links = get_field('artist_social_links');
