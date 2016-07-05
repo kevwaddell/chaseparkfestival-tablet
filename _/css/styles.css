@@ -4993,7 +4993,7 @@ a {
 }
 .img-viewer figure img {
   display: block;
-  max-height: 600px;
+  max-height: 400px;
 }
 .img-viewer figure .img-caption {
   position: relative;
@@ -5086,7 +5086,7 @@ a {
   height: 100%;
   text-align: center;
   font-size: 95px;
-  line-height: 400px;
+  line-height: 200px;
 }
 #main-content .img-grid .grid-item.placeholder {
   position: relative;
