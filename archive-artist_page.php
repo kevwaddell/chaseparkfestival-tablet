@@ -43,7 +43,7 @@ $found_posts = $wp_query->found_posts;
 <?php if ( have_posts() ): ?>
 	<section id="artist-posts">
 		<div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
-			<h1><?php echo get_the_title($artists_pg); ?></h1>
+			<h1><?php echo get_the_title($artists_pg); ?> <?php echo $this_year; ?></h1>
 		</div>
 		
 	<?php while ( have_posts() ) : the_post(); ?>
