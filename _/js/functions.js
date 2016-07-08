@@ -187,6 +187,8 @@ jQuery(document).ready(function( $ ) {
 	
 	$('body').on('touchstart', '.img-viewer button.view-nav-btn' ,function(){
 		
+		var img_viewer = $('.img-viewer');
+		
 		var page = $(this).data().pg;
 		var current_img = $(this).siblings('.img').attr('data-current-img');
 		var new_img = current_img;
@@ -224,12 +226,12 @@ jQuery(document).ready(function( $ ) {
 		
 		
 		$('.img').addClass('zoomOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-			$(this).find('img').remove();
-			$(this).find('.img-caption').empty();
+			$(img_viewer).find('img').remove();
+			$(img_viewer).find('.img-caption').empty();
 			
 			if (img.complete || img.readyState === 4) {
 				$(this).append(img);	
-				$(this).find('.img-caption').text(img_caption);
+				$(img_viewer).find('.img-caption').text(img_caption);
 				$(this).removeClass('zoomOut').addClass('zoomIn');
 			}
 			
