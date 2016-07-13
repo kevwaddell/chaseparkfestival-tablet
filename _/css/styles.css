@@ -5490,8 +5490,14 @@ a {
   line-height: 27px;
   font-weight: bold;
 }
+#main-content .sidebar .info-panel ul.artist-list li img {
+  max-width: 50%;
+}
 #main-content .sidebar .info-panel ul.artist-list li:last-child {
   margin-bottom: 10px;
+}
+#main-content .sidebar .info-panel ul.artist-list li:first-child img {
+  max-width: 100%;
 }
 #main-content .sidebar .info-panel ul.artist-list li:nth-child(2) img {
   max-width: 80%;
