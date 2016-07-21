@@ -6,7 +6,7 @@ jQuery(document).ready(function( $ ) {
 	var slider_inner_w = $('.artists-slider-inner').outerWidth();
 	/* MAIN NAVIGATION BUTTON ACTIONS */
 	
-	$('body').on('touchstart', 'button#main-nav-btn' ,function(){
+	$('button#main-nav-btn').on('touchstart' ,function(){
 		
 		var nav_h = $('#main-nav').find('.nav-wrapper').outerHeight();
 		
@@ -30,7 +30,7 @@ jQuery(document).ready(function( $ ) {
 	});
 
 	
-	$('body').on('touchstart', 'button#close-nav-btn' ,function(){
+	$('button#close-nav-btn').on('touchstart' ,function(){
 		
 		if ($('#main-nav').hasClass('nav-open')) {
 			$('#main-nav').animate({height: "0px"}, 500, function(){
@@ -47,7 +47,7 @@ jQuery(document).ready(function( $ ) {
 	*/
 	
 	/* ARTISTS PROFILE SLIDER */
-	$('body').on('touchstart', '.slider-nav-btns button' ,function(){
+	$('.slider-nav-btns').on('touchstart', 'button' ,function(){
 		
 		var direct = $(this).data().direction;
 		var this_btn = $(this);
@@ -102,7 +102,7 @@ jQuery(document).ready(function( $ ) {
 	
 	/* SPONSORS LOGOS SLIDER */
 	
-	$('body').on('touchstart', '#sponsors-and-stalls .slides-nav a' ,function(){
+	$('#sponsors-and-stalls').on('touchstart', '.slides-nav a' ,function(){
 		var next_slide_id = $(this).attr('href');
 		var current_slide = $('.sponsors-outer-wrap').find('div.active');
 		var next_slide = $(next_slide_id);
@@ -122,17 +122,14 @@ jQuery(document).ready(function( $ ) {
 		
 		$(current_slide).animate({left: mov_left}, 500, function(){
 			$(this).removeClass('active').addClass('inactive');	
-		});
-		
-		//console.log(current_slide);		
-		//console.log(next_slide);			
+		});		
 		return false;	
 	});
 
 	/* GALLERY IMAGES FUNCTIONS */
 	
 	//Image Viewer Pop up function
-	$('body').on('touchstart', '.img-grid .grid-item a' ,function(){
+	$('.img-grid').on('touchstart', '.grid-item a' ,function(){
 		
 		var img_viewer = $('.img-viewer');
 		var current_img = $(this).attr('href');
@@ -169,7 +166,7 @@ jQuery(document).ready(function( $ ) {
 	});
 	
 	//Image Viewer Pop up Close function
-	$('body').on('touchstart', 'button#close-img-viewer' ,function(){
+	$('button#close-img-viewer').on('touchstart', function(){
 		
 		var img_viewer = $('.img-viewer');
 		
@@ -185,7 +182,7 @@ jQuery(document).ready(function( $ ) {
 	
 	//Image Viewer Next Image button function
 	
-	$('body').on('touchstart', '.img-viewer button.view-nav-btn' ,function(){
+	$('.img-viewer').on('touchstart', 'button.view-nav-btn' ,function(){
 		
 		var img_viewer = $('.img-viewer');
 		
@@ -242,7 +239,7 @@ jQuery(document).ready(function( $ ) {
 	});
 	
 	//View more button
-	$('body').on('touchstart', '#gallery-view-more-btn' ,function(){
+	$('#gallery-view-more-btn').on('touchstart' ,function(){
 		var total_sections = $('.img-grid').find('.grid-section').length;
 		var open_count = $('.img-grid').find('.grid-section.open').length;
 		var next = $('.grid-section').eq(open_count);
@@ -261,7 +258,7 @@ jQuery(document).ready(function( $ ) {
 		return false;	
 	});	
 	
-	$('body').on('touchstart', '#gallery-view-less-btn' ,function(){
+	$('#gallery-view-less-btn').on('touchstart', function(){
 		var first_section = $('.img-grid').find('.grid-section:first-child');
 		var pos = $(first_section).offset().top;
 		
