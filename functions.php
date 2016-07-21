@@ -130,5 +130,23 @@ function form_submit_button( $button, $form ) {
     return "<button class='btn btn-default btn-block gform_button tk-azo-sans-uber' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
 }
 
+function tickets_button_function($atts){
+	
+$gbl_tickets_url = get_field('gbl_tickets_url', 'options');
+
+	extract(shortcode_atts(array('title' => "Book your Tickets",), $atts));
+   
+   $return_string = '<a href="'.$gbl_tickets_url.'" target="_blank" class="btn btn-default btn-block btn-lg book-tickets-btn-lg tk-azo-sans-uber">'.$title.'</a>';
+   
+   return $return_string;
+   
+}
+
+function register_shortcodes(){
+   add_shortcode('ticket-button', 'tickets_button_function');
+}
+
+add_action( 'init', 'register_shortcodes');
+
 
 ?>

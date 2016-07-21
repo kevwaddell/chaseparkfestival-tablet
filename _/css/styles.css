@@ -3326,7 +3326,6 @@ h5 {
   margin-top: 0px;
 }
 #main-content {
-  min-height: 500px;
   position: relative;
   background-color: #FFF;
 }
@@ -3515,7 +3514,7 @@ a.book-tickets-btn-lg {
   padding: 0px;
   height: 100px;
   line-height: 90px;
-  font-size: 50px;
+  font-size: 40px;
   background-color: #eda03f;
   border: 5px solid #FFF;
   color: #FFF;
@@ -3880,6 +3879,29 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 45px;
   line-height: 50px;
 }
+#main-content header.post-header {
+  padding-top: 40px;
+}
+#main-content header.post-header .feat-img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#main-content header.post-header .feat-img img {
+  max-width: 500px;
+  display: inline-block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+#main-content header.post-header h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+#main-content header.post-header .post-date {
+  color: #006f9c;
+  font-size: 16px;
+  font-weight: bold;
+}
 #main-content .main-txt.with-pad {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -3887,6 +3909,11 @@ a.book-tickets-btn-lg:focus:after {
 #main-content .main-txt h2 {
   font-size: 35px;
   line-height: 40px;
+  margin-bottom: 30px;
+}
+#main-content .main-txt p.lead {
+  font-size: 25px;
+  line-height: 30px;
 }
 #main-content .main-txt .main-text-header {
   margin-bottom: 20px;
@@ -3965,6 +3992,10 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 /* SECTIONS */
 /* --------------------------- */
+.divider {
+  height: 10px;
+  margin-top: 40px;
+}
 /* SOCIAL LINKS SECTIONS */
 .social-section-links.with-pad {
   padding-top: 40px;
@@ -5144,18 +5175,44 @@ a {
     height: 250px;
   }
 }
-#main-content #artist-posts {
+#main-content .page-links {
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+}
+#main-content .page-links .pages {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 50px;
+}
+#main-content .page-links .current {
+  display: inline-block;
+  background-color: #009ee3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 4px solid #FFF;
+  border-right: 4px solid #FFF;
+}
+#main-content #artist-posts,
+#main-content #blog-posts {
   border-bottom: 5px solid #FFF;
 }
 #main-content #artist-posts:before,
-#main-content #artist-posts:after {
+#main-content #blog-posts:before,
+#main-content #artist-posts:after,
+#main-content #blog-posts:after {
   content: " ";
   display: table;
 }
-#main-content #artist-posts:after {
+#main-content #artist-posts:after,
+#main-content #blog-posts:after {
   clear: both;
 }
-#main-content #artist-posts article.grid-item {
+#main-content #artist-posts .grid-item,
+#main-content #blog-posts .grid-item {
   width: 33.33333333%;
   height: 200px;
   float: left;
@@ -5167,11 +5224,13 @@ a {
   background-size: cover;
   border-top: 5px solid #FFF;
 }
-#main-content #artist-posts article.grid-item:nth-child(3n) {
+#main-content #artist-posts .grid-item:nth-child(3n),
+#main-content #blog-posts .grid-item:nth-child(3n) {
   border-left: 5px solid #FFF;
   border-right: 5px solid #FFF;
 }
-#main-content #artist-posts article.grid-item a {
+#main-content #artist-posts .grid-item a,
+#main-content #blog-posts .grid-item a {
   display: block;
   width: 100%;
   height: 100%;
@@ -5180,7 +5239,8 @@ a {
   color: #FFF;
   font-size: 16px;
 }
-#main-content #artist-posts article.grid-item a span {
+#main-content #artist-posts .grid-item a span,
+#main-content #blog-posts .grid-item a span {
   position: absolute;
   width: 100%;
   bottom: 0px;
@@ -5190,15 +5250,21 @@ a {
   padding: 10px 10px 10px 10px;
   line-height: 18px;
 }
-#main-content #artist-posts article.grid-item a:hover,
-#main-content #artist-posts article.grid-item a:active,
-#main-content #artist-posts article.grid-item a:focus {
+#main-content #artist-posts .grid-item a:hover,
+#main-content #blog-posts .grid-item a:hover,
+#main-content #artist-posts .grid-item a:active,
+#main-content #blog-posts .grid-item a:active,
+#main-content #artist-posts .grid-item a:focus,
+#main-content #blog-posts .grid-item a:focus {
   background-color: #333;
   background-color: rgba(51, 51, 51, 0.8);
 }
-#main-content #artist-posts article.grid-item a:hover:after,
-#main-content #artist-posts article.grid-item a:active:after,
-#main-content #artist-posts article.grid-item a:focus:after {
+#main-content #artist-posts .grid-item a:hover:after,
+#main-content #blog-posts .grid-item a:hover:after,
+#main-content #artist-posts .grid-item a:active:after,
+#main-content #blog-posts .grid-item a:active:after,
+#main-content #artist-posts .grid-item a:focus:after,
+#main-content #blog-posts .grid-item a:focus:after {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -5210,9 +5276,12 @@ a {
   font-size: 50px;
   line-height: 200px;
 }
-#main-content #artist-posts article.grid-item a:hover span,
-#main-content #artist-posts article.grid-item a:active span,
-#main-content #artist-posts article.grid-item a:focus span {
+#main-content #artist-posts .grid-item a:hover span,
+#main-content #blog-posts .grid-item a:hover span,
+#main-content #artist-posts .grid-item a:active span,
+#main-content #blog-posts .grid-item a:active span,
+#main-content #artist-posts .grid-item a:focus span,
+#main-content #blog-posts .grid-item a:focus span {
   background-color: transparent;
 }
 #main-content .no-content-message {
