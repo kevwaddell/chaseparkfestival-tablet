@@ -12,7 +12,7 @@ $form_active = get_field('form_active');
 
 /* TICKET DATA */
 $ticket_provider_http = get_field('gbl_ticket_provider', 'options');
-$ticket_provider = split("http://", $ticket_provider_http);
+$ticket_provider = preg_split("http://", $ticket_provider_http);
 $tickets_url = get_field('gbl_tickets_url', 'options');
 ?>
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">

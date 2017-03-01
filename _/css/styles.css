@@ -3915,6 +3915,16 @@ a.book-tickets-btn-lg:focus:after {
   font-size: 25px;
   line-height: 30px;
 }
+#main-content .main-txt blockquote {
+  border-color: #eda03f;
+  font-weight: bold;
+  color: #006f9c;
+}
+#main-content .main-txt blockquote p {
+  font-size: 25px;
+  line-height: 35px;
+  font-style: italic;
+}
 #main-content .main-txt .main-text-header {
   margin-bottom: 20px;
 }
