@@ -3668,6 +3668,11 @@ a.book-tickets-btn-lg:focus:after {
   line-height: 60px;
   position: relative;
 }
+#hp-masthead .hp-mast-message {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 60px;
+}
 #hp-masthead a.book-tickets-btn-lg {
   width: auto;
   position: absolute;

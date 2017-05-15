@@ -7,7 +7,7 @@
 		"uuidString": "E620C36B-1C5D-42A7-9A71-FFF73D8BE46B"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -27,7 +27,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/attitude-is-everything-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/attitude-is-everything-logo.svg": {
 		"ft": 2097152,
@@ -45,7 +48,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/festival-for-everyone-tag.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/festival-for-everyone-tag.svg": {
 		"ft": 2097152,
@@ -63,7 +69,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/footer-cloud-left.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/footer-cloud-left.svg": {
 		"ft": 2097152,
@@ -81,7 +90,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-logo-wrap-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/gbl-logo-wrap-bg.svg": {
 		"ft": 2097152,
@@ -99,7 +111,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-mast-cloud-left.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/gbl-mast-cloud-left.svg": {
 		"ft": 2097152,
@@ -117,7 +132,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-mast-cloud-right.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/gbl-mast-cloud-right.svg": {
 		"ft": 2097152,
@@ -135,7 +153,9 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-mast-image-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_\/css\/img\/gbl-notes-bg-wht.png": {
 		"ft": 32768,
@@ -143,7 +163,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-notes-bg-wht.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/gbl-notes-bg-wht.svg": {
 		"ft": 2097152,
@@ -161,7 +184,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-logo-wrap-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-logo-wrap-bg.svg": {
 		"ft": 2097152,
@@ -179,7 +205,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-grass-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-mast-guitar-bg.png": {
 		"ft": 32768,
@@ -187,7 +216,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-guitar-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-mast-guitar-bg.svg": {
 		"ft": 2097152,
@@ -205,7 +237,9 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-image-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-mast-image-bg.png": {
 		"ft": 32768,
@@ -213,7 +247,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-image-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-mast-notes-bg.png": {
 		"ft": 32768,
@@ -221,7 +258,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-notes-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-mast-notes-bg.svg": {
 		"ft": 2097152,
@@ -239,7 +279,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-stripes-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/logo-lrg.png": {
 		"ft": 32768,
@@ -247,7 +290,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/logo-lrg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/logo-lrg.svg": {
 		"ft": 2097152,
@@ -265,7 +311,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/quote-wrap.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/sponsor-rosette.png": {
 		"ft": 32768,
@@ -273,7 +322,10 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/sponsor-rosette.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/user-bg.jpg": {
 		"ft": 16384,
@@ -281,7 +333,9 @@
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/user-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_\/css\/offline.css": {
 		"aP": 1,
@@ -315,7 +369,9 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-left.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_\/img\/around-site-right.jpg": {
 		"ft": 16384,
@@ -323,7 +379,9 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-right.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_\/img\/band-img-placeholder.png": {
 		"ft": 32768,
@@ -331,7 +389,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/band-img-placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/bus.png": {
 		"ft": 32768,
@@ -339,7 +400,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/bus.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/Chase-Park-Festival-2016-Sponsors-pack-cover.png": {
 		"ft": 32768,
@@ -347,7 +411,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/Chase-Park-Festival-2016-Sponsors-pack-cover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/disability.png": {
 		"ft": 32768,
@@ -355,7 +422,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/disability.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/entrance.png": {
 		"ft": 32768,
@@ -363,7 +433,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/entrance.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/festival.png": {
 		"ft": 32768,
@@ -371,7 +444,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/festival.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/hp-panel-imgs.png": {
 		"ft": 32768,
@@ -379,7 +455,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/hp-panel-imgs.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/line-up-panel-imgs.png": {
 		"ft": 32768,
@@ -387,7 +466,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/line-up-panel-imgs.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/photo-gallery-panel-imgs.png": {
 		"ft": 32768,
@@ -395,7 +477,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/photo-gallery-panel-imgs.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/post-img-placeholder.png": {
 		"ft": 32768,
@@ -403,7 +488,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/post-img-placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/press-message-img.png": {
 		"ft": 32768,
@@ -411,7 +499,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/press-message-img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/img\/videos-message-img.png": {
 		"ft": 32768,
@@ -419,7 +510,10 @@
 		"oA": 0,
 		"oAP": "\/_\/img\/videos-message-img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/js\/functions-min.js": {
 		"ft": 64,
@@ -1082,7 +1176,10 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/sidebar-home.php": {
 		"ft": 8192,
@@ -1127,7 +1224,7 @@
 	"creationDate": 510078119,
 	"displayValue": "chaseparkfestival-tablet",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "meme-krieger"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1799,6 +1896,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2083,6 +2184,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2278,6 +2383,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2878,7 +2987,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2901,14 +3011,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2971,7 +3073,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
