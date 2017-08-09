@@ -1,5 +1,4 @@
 <header id="gbl-masthead" class="masthead" role="banner">
-	<div class="mast-bg-stripes"></div>
 	
 	<div class="container-fluid">
 		

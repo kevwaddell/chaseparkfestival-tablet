@@ -3603,10 +3603,10 @@ a.book-tickets-btn-lg:focus:after {
   letter-spacing: 3px;
 }
 #hp-masthead {
-  height: 97vh;
-  background-image: url(img/hp-mast-image-bg.jpg);
+  height: 90vh;
+  background-image: url(img/hp-mast-image-bg-2017.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3688,7 +3688,7 @@ a.book-tickets-btn-lg:focus:after {
 }
 @media screen and (orientation: portrait) {
   #hp-masthead {
-    height: 70vh;
+    height: 80vh;
   }
   #hp-masthead .festival-tag {
     font-size: 20px;
@@ -3708,9 +3708,9 @@ a.book-tickets-btn-lg:focus:after {
 }
 #gbl-masthead {
   height: 200px;
-  background-image: url(img/gbl-mast-image-bg.jpg);
+  background-image: url(img/gbl-mast-image-bg-2017.png);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
