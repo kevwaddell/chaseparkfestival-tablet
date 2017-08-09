@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/404.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.php",
+		"oF": 0
+		},
 	"\/503.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -994,6 +1000,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/homepage\/section-social.php",
+		"oF": 0
+		},
+	"\/parts\/messages\/404-message.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/messages\/404-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/access-message.php": {
