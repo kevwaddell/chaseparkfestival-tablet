@@ -39,7 +39,7 @@ $access_info_active = get_field('access_info_active', 'options');
 			</div>
 		</div>
 		
-		<?php get_template_part( 'parts/sections/section', 'parking' ); ?>
+		<?php //get_template_part( 'parts/sections/section', 'parking' ); ?>
 		
 		<?php get_template_part( 'parts/sections/section', 'assistance' ); ?>
 		
