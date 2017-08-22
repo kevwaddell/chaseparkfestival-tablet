@@ -1,7 +1,7 @@
 <section class="pg-section-full orange-border-top">
 
 	<h2 class="section-header text-center bg-col-orange txt-col-wht tk-azo-sans-uber">Getting here…</h2>
-	<div class="container">
+	<div class="container-fluid">
 			
 			<dl class="info-list">
 				<dt class="text-uppercase txt-col-orange"><i class="fa fa-subway text-center bg-col-blue txt-col-wht"></i>By Metro</dt>
