@@ -3424,8 +3424,8 @@ h5 {
   line-height: 50px;
   background-color: transparent;
   color: #FFF;
-  font-size: 20px;
-  border: 5px solid #FFF;
+  font-size: 16px;
+  border: 2px solid #FFF;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -3436,6 +3436,7 @@ h5 {
   float: left;
   line-height: 50px;
   width: 50px;
+  font-size: 20px;
   color: #a3712b;
 }
 #main-nav ul.menu a:hover,
