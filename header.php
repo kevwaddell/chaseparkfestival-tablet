@@ -28,6 +28,10 @@
 	
 	<div class="cpf-wrapper nav-closed">
 		
+		<?php if ( !is_page_template( 'page-templates/sponsorship-page.php' ) ) { ?>
+		<?php get_template_part( 'parts/global/gbl', 'advert' ); ?>
+		<?php } ?>
+		
 		<?php if (is_front_page()) { ?>
 		<?php get_template_part( 'parts/homepage/hp', 'masthead' ); ?>
 		<?php } else { ?>

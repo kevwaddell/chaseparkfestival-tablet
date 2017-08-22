@@ -982,6 +982,12 @@
 		"oAP": "\/parts\/artists\/artists-slider.php",
 		"oF": 0
 		},
+	"\/parts\/global\/gbl-advert.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/global\/gbl-advert.php",
+		"oF": 0
+		},
 	"\/parts\/global\/gbl-favicons.php": {
 		"ft": 8192,
 		"oA": 0,

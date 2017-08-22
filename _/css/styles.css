@@ -3559,6 +3559,21 @@ a.book-tickets-btn-lg:focus:after {
 /* --------------------------- */
 /* Masthead styles */
 /* --------------------------- */
+#main-partner-advert {
+  border-bottom: 4px solid #FFF;
+}
+#main-partner-advert a.main-partner-link {
+  display: block;
+  margin: auto;
+  height: 65px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  text-decoration: none;
+}
 .masthead {
   position: relative;
 }
