@@ -11,6 +11,7 @@ Template Name: Access Information page template
 <?php  
 $year = date("Y", time());
 $access_info_active = get_field('access_info_active', 'options');
+$sp_access_info_active = get_field('sp_access_info_active', 'options');
 ?>
 
 <div class="strip-header bg-col-blue-dk txt-col-wht tk-azo-sans-uber text-center">
@@ -39,7 +40,11 @@ $access_info_active = get_field('access_info_active', 'options');
 			</div>
 		</div>
 		
-		<?php //get_template_part( 'parts/sections/section', 'parking' ); ?>
+		<?php if ($sp_access_info_active) { ?>
+		<?php get_template_part( 'parts/sections/section', 'travel-swp' ); ?>
+		<?php } else { ?>
+		<?php get_template_part( 'parts/sections/section', 'parking' ); ?>
+		<?php } ?>
 		
 		<?php get_template_part( 'parts/sections/section', 'assistance' ); ?>
 		

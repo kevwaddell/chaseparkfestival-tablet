@@ -1180,6 +1180,12 @@
 		"oAP": "\/parts\/sections\/section-sponsorStage.php",
 		"oF": 0
 		},
+	"\/parts\/sections\/section-travel-swp.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/sections\/section-travel-swp.php",
+		"oF": 0
+		},
 	"\/profile-form.php": {
 		"ft": 8192,
 		"oA": 0,
