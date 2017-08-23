@@ -46,7 +46,7 @@ $sponsors_total = count($sponsors_and_stalls);
 $slides_total = ceil($sponsors_total / 4);
 ?>
 <section id="sponsors-and-stalls" class="wide-panel bg-col-orange text-center">
-	<h3 class="panel-header in-block bg-col-wht tk-azo-sans-uber txt-col-orange">Our Sponsors for <?php echo $main_partner_year; ?></h3>
+	<h3 class="panel-header text-center bg-col-wht tk-azo-sans-uber txt-col-orange">Our Sponsors for <?php echo $main_partner_year; ?></h3>
 	<div class="sponsors-outer-wrap">
 		<div id="sponsor-slide-<?php echo $slides_count; ?>" class="sponsors-inner-wrap active">
 			<div class="container-fluid">

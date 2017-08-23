@@ -3400,7 +3400,6 @@ h5 {
   text-align: center;
   font-size: 25px;
 }
-#main-nav ul.quick-menu a:hover,
 #main-nav ul.quick-menu a:active,
 #main-nav ul.quick-menu a:focus {
   background-color: #FFF;
@@ -3439,7 +3438,6 @@ h5 {
   font-size: 20px;
   color: #a3712b;
 }
-#main-nav ul.menu a:hover,
 #main-nav ul.menu a:active,
 #main-nav ul.menu a:focus {
   background-color: #FFF;
@@ -4830,6 +4828,29 @@ a {
 }
 #sponsors-and-stalls {
   border-top: 5px solid #FFF;
+}
+#sponsors-and-stalls .panel-header {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 16px;
+  padding-bottom: 20px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-bottom: 25px;
 }
 #sponsors-and-stalls .sponsors-outer-wrap {
   position: relative;
