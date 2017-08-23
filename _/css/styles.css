@@ -4415,6 +4415,43 @@ a {
     font-size: 18px;
   }
 }
+.pg-section-full#main-partner-panel {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.pg-section-full#main-partner-panel h2.section-header {
+  margin-bottom: 30px;
+}
+.pg-section-full#main-partner-panel .partner-logo {
+  padding: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  line-height: 180px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.pg-section-full#main-partner-panel .partner-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pg-section-full#main-partner-panel .partner-txt h3 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 300;
+}
+.pg-section-full#main-partner-panel .partner-txt .btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  margin-top: 30px;
+}
 #map-and-directions-section {
   border-top: 10px solid #006f9c;
 }

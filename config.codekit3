@@ -1150,6 +1150,12 @@
 		"oAP": "\/parts\/sections\/section-parking.php",
 		"oF": 0
 		},
+	"\/parts\/sections\/section-partner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/sections\/section-partner.php",
+		"oF": 0
+		},
 	"\/parts\/sections\/section-reason2sponsor.php": {
 		"ft": 8192,
 		"oA": 0,

@@ -20,6 +20,9 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 </div>
 
 <main id="main-content"> 
+	
+	<?php get_template_part( 'parts/sections/section', 'partner' ); ?>
+	
 	<div class="container-fluid">
 		
 		<?php if ($sponsor_active) { ?>
