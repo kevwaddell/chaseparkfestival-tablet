@@ -14,7 +14,7 @@
 <?php if ( have_posts() ): while ( have_posts() ) : the_post(); ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-xs-10 col-xs-offset-1">
 				<article <?php post_class(); ?>>
 					<header class="post-header text-center">
 						<?php if (has_post_thumbnail($post->ID)) { ?>
