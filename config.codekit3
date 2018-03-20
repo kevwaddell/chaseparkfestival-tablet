@@ -7,21 +7,24 @@
 		"uuidString": "E620C36B-1C5D-42A7-9A71-FFF73D8BE46B"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/503.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/503.php",
@@ -164,6 +167,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_\/css\/img\/gbl-mast-image-bg-2018.png": {
+		"ft": 32768,
+		"iS": 95590,
+		"oA": 0,
+		"oAP": "\/_\/css\/img\/gbl-mast-image-bg-2018.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_\/css\/img\/gbl-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 54636,
@@ -194,6 +208,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/_\/css\/img\/halfone-bg-2018.png": {
+		"ft": 32768,
+		"iS": 857470,
+		"oA": 0,
+		"oAP": "\/_\/css\/img\/halfone-bg-2018.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_\/css\/img\/hp-logo-wrap-bg.png": {
 		"ft": 32768,
@@ -259,6 +284,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_\/css\/img\/hp-mast-image-bg-2018.png": {
+		"ft": 32768,
+		"iS": 945112,
+		"oA": 0,
+		"oAP": "\/_\/css\/img\/hp-mast-image-bg-2018.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_\/css\/img\/hp-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 139145,
@@ -306,6 +342,17 @@
 		"iS": 54223,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-stripes-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_\/css\/img\/logo-lrg-2018.png": {
+		"ft": 32768,
+		"iS": 46712,
+		"oA": 0,
+		"oAP": "\/_\/css\/img\/logo-lrg-2018.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -386,6 +433,7 @@
 		"oS": 0
 		},
 	"\/_\/functions\/artists-cpt.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_\/functions\/artists-cpt.php",
@@ -477,11 +525,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_\/img\/hp-panel-imgs-2018.png": {
+		"ft": 32768,
+		"iS": 94837,
+		"oA": 0,
+		"oAP": "\/_\/img\/hp-panel-imgs-2018.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_\/img\/hp-panel-imgs.png": {
 		"ft": 32768,
 		"iS": 275131,
 		"oA": 0,
 		"oAP": "\/_\/img\/hp-panel-imgs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_\/img\/line-up-panel-imgs-2018.png": {
+		"ft": 32768,
+		"iS": 70298,
+		"oA": 0,
+		"oAP": "\/_\/img\/line-up-panel-imgs-2018.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -545,6 +615,7 @@
 		},
 	"\/_\/js\/functions-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/_\/js\/min\/functions-min-min.js",
@@ -554,6 +625,7 @@
 		},
 	"\/_\/js\/functions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_\/js\/functions-min.js",
@@ -851,372 +923,434 @@
 		"sU": 0
 		},
 	"\/archive-artist_page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive-artist_page.php",
 		"oF": 0
 		},
 	"\/footer-user.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer-user.php",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/front-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header-user.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header-user.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/login-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/login-form.php",
 		"oF": 0
 		},
 	"\/lostpassword-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/lostpassword-form.php",
 		"oF": 0
 		},
 	"\/page-templates\/access-info-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/access-info-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/contact-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/contact-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/photo-gallery-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/photo-gallery-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/press-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/press-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/profile-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/profile-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/sponsorship-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/sponsorship-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/user-forms-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/user-forms-page.php",
 		"oF": 0
 		},
 	"\/page-templates\/videos-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-templates\/videos-page.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/parts\/artists\/artists-grid.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/artists\/artists-grid.php",
 		"oF": 0
 		},
 	"\/parts\/artists\/artists-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/artists\/artists-profile.php",
 		"oF": 0
 		},
 	"\/parts\/artists\/artists-slider.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/artists\/artists-slider.php",
 		"oF": 0
 		},
 	"\/parts\/global\/gbl-advert.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/parts\/global\/gbl-advert.php",
 		"oF": 0
 		},
 	"\/parts\/global\/gbl-favicons.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/global\/gbl-favicons.php",
 		"oF": 0
 		},
 	"\/parts\/global\/gbl-footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/global\/gbl-footer.php",
 		"oF": 0
 		},
 	"\/parts\/global\/gbl-masthead.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/global\/gbl-masthead.php",
 		"oF": 0
 		},
 	"\/parts\/global\/main-nav.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/global\/main-nav.php",
 		"oF": 0
 		},
 	"\/parts\/homepage\/hp-masthead.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/homepage\/hp-masthead.php",
 		"oF": 0
 		},
 	"\/parts\/homepage\/section-infopanel.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/homepage\/section-infopanel.php",
 		"oF": 0
 		},
 	"\/parts\/homepage\/section-social.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/homepage\/section-social.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/404-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/parts\/messages\/404-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/access-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/access-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/artists-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/artists-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/blog-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/blog-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/gallery-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/gallery-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/press-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/press-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/sponsorship-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/sponsorship-message.php",
 		"oF": 0
 		},
 	"\/parts\/messages\/video-message.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/messages\/video-message.php",
 		"oF": 0
 		},
 	"\/parts\/offline\/send-email.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/offline\/send-email.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/access-enquiries.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/access-enquiries.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/around-site.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/around-site.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/artists-enquiries.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/artists-enquiries.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/download-package.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/download-package.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/general-enquiries.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/general-enquiries.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/media-coverage.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/media-coverage.php",
 		"oF": 0
 		},
 	"\/parts\/panels\/sponsor-enquiries.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/panels\/sponsor-enquiries.php",
 		"oF": 0
 		},
 	"\/parts\/photo-gallery\/img-viewer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/photo-gallery\/img-viewer.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/attitude-plug.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/attitude-plug.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-assistance.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-assistance.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-parking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-parking.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-partner.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/parts\/sections\/section-partner.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-reason2sponsor.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-reason2sponsor.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-social.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-social.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-socialStats.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-socialStats.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-sponsorPackages.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-sponsorPackages.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-sponsors.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-sponsors.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-sponsorStage.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/parts\/sections\/section-sponsorStage.php",
 		"oF": 0
 		},
 	"\/parts\/sections\/section-travel-swp.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/parts\/sections\/section-travel-swp.php",
 		"oF": 0
 		},
 	"\/profile-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/profile-form.php",
 		"oF": 0
 		},
 	"\/README.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/README.txt",
 		"oF": 0
 		},
 	"\/register-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/register-form.php",
 		"oF": 0
 		},
 	"\/resetpass-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resetpass-form.php",
@@ -1234,18 +1368,21 @@
 		"q": 100
 		},
 	"\/sidebar-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar-home.php",
 		"oF": 0
 		},
 	"\/single-artist_page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single-artist_page.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single.php",
@@ -1262,6 +1399,7 @@
 		"oS": 0
 		},
 	"\/user-panel.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/user-panel.php",
@@ -1284,6 +1422,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1680,6 +1819,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1687,6 +1830,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1784,6 +1931,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1800,9 +1951,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1827,6 +1986,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -1860,9 +2023,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1892,6 +2055,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1901,14 +2068,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1931,6 +2090,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2476,6 +2639,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2544,6 +2711,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2583,6 +2754,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2996,7 +3171,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3029,6 +3205,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3070,7 +3247,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3102,13 +3280,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3117,7 +3295,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3137,7 +3316,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3165,7 +3345,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3216,6 +3397,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

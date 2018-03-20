@@ -6,7 +6,13 @@ footer#footer-site-info {
 	.rel;
 	.pad-top(3);
 	//.pad-bot(3);
-	.gradient(@blue, @wht, @blue);	
+	.bg-col(black);
+	.bg-img("halfone-bg-2018.png");
+	.bg-repeat;
+	background-position: center center;
+	//background-attachment: fixed;
+	.bg-size;
+	//.gradient(@blue, @wht, @blue);	
 	.border-bot(@wht; 0.2);
 	}
 	
@@ -17,35 +23,6 @@ footer#footer-site-info {
 	
 	.footer-bg-imgs, .footer-guitar-bg, .footer-grass-bg {
 	.abs;	
-	}
-	
-	.footer-bg-imgs {	
-	.top(0);
-	.left(0);
-	width: 100%;
-	height: 100%;
-	}
-	
-	.footer-guitar-bg {	
-	.top(0);
-	.right(0);	
-	height: 100%;
-	width: 50%;
-	.bg-img("hp-mast-guitar-bg.png");
-	.bg-repeat;
-	background-position: right center;
-	.bg-size(contain);
-	}
-	
-	.footer-grass-bg {	
-	.bottom(9);
-	.left(0);	
-	.h(15);
-	width: 100%;
-	.bg-img("hp-mast-grass-bg.png");
-	background-repeat: repeat-x;
-	background-position: center bottom;
-	.bg-size(contain);
 	}
 	
 	.container-fluid {
@@ -72,7 +49,7 @@ footer#footer-site-info {
 		.txt-col-wht;
 		.no-text-dec;
 			i {
-			.txt-col-blue-dk;	
+			.txt-col-orange;	
 			}
 			&:hover, &:active, &:focus {
 			.txt-col-blue-dk;
@@ -138,14 +115,14 @@ footer#footer-site-info {
 	.line-h(2);
 	.pad-all(1);
 	//.bg-col-wht;
-	.trans-bg(@wht; 0.8);
 	.mag-bot(2);
 	.rounded(8px);
+	.txt-col-pink;
 		a {
 		.no-text-dec;
-		.txt-col-blue;
+		.txt-col-wht;
 			&:hover, &:active, &:focus {
-			.txt-col-blue-dk;
+			.txt-col-pink;
 			text-decoration: underline;
 			}	
 		}
@@ -166,13 +143,13 @@ footer#footer-site-info {
 		}
 		
 		.footer-date {
-		width: 50%;	
+		width: 40%;	
 		}
 		.footer-location {
-		width: 35%;		
+		width: 40%;		
 		}
 		.footer-time {
-		width: 15%;	
+		width: 20%;	
 		.no-border;	
 		}
 	}

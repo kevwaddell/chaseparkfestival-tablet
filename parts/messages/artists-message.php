@@ -8,7 +8,7 @@ $social_links = get_field('gbl_social_links', 'options');
 			<div class="no-content-message text-center">
 		
 		<figure class="message-img in-block">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs-2018.png" class="img-responsive" />
 		</figure>
 		
 		<h1 class="text-uppercase txt-col-orange tk-azo-sans-uber">Artists for <?php echo $this_year; ?></h1>

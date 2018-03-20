@@ -52,7 +52,7 @@ $press_quotes = get_field('press_quotes', 'options');
 	<?php } ?>
 	
 	<?php if (!empty($press_quotes)) { ?>
-	<section id="press-quotes" class="pg-section-full blue-dk-border-top bg-col-blue">
+	<section id="press-quotes" class="pg-section-full blue-dk-border-top bg-col-orange">
 		<h2 class="section-header text-center bg-col-blue-dk txt-col-orange tk-azo-sans-uber">What the press say</h2>	
 		<div id="carousel-press-quotes" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
@@ -60,7 +60,7 @@ $press_quotes = get_field('press_quotes', 'options');
 				<div class="item<?php echo ($k == 0) ? " active":""; ?>">
 					<div class="quote-wrap">
 						<div class="media-title text-center bold text-uppercase txt-col-blue-dk"><?php echo $q['media_title']; ?></div>
-						<blockquote class="media-quote text-center bold txt-col-orange"><?php echo $q['quote']; ?></blockquote>
+						<blockquote class="media-quote text-center bold txt-col-blue"><?php echo $q['quote']; ?></blockquote>
 						<a href="<?php echo $q['article_link']; ?>" target="_blank" class="media-link block text-center bold" rel="nofollow">View the full article on the <?php echo $q['media_title']; ?> website <i class="fa fa-chevron-right fa-lg pull-right"></i></a>
 					</div>
 				</div>

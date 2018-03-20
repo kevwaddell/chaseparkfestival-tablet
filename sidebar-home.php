@@ -4,7 +4,7 @@ $hp_artist_list_active = get_field('hp_artist_list_active', 'options');
 $social_links = get_field('gbl_social_links', 'options');	
 ?>
 
-<aside class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 sidebar mag-top-mob">
+<aside class="col-sm-10 col-sm-offset-1 sidebar mag-top-mob">
 	<?php if ($hp_artist_list_active) { 
 	$panel_type = get_field('hp_panel_type', 'options');
 	?>
@@ -47,7 +47,7 @@ $social_links = get_field('gbl_social_links', 'options');
 			<div class="well text-center bg-col-orange txt-col-wht bold">
 				
 				<figure class="line-up-img">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs.png" class="img-responsive" />
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/_/img/line-up-panel-imgs-2018.png" class="img-responsive" />
 				</figure>
 				
 				<p>The line up for this years <span class="txt-col-blue-dk">Chase Park Festival</span> will be available soon.</p>

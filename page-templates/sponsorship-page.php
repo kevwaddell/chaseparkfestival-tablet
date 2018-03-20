@@ -37,10 +37,10 @@ $gbl_contact_telephone = get_field('gbl_contact_telephone', 'options');
 					<aside class="sidebar pad-bot-40">
 					
 						<div class="row">
-							<div class="col-xs-8">
+							<div class="col-md-8">
 								<?php get_template_part( 'parts/panels/sponsor', 'enquiries' ); ?>
 							</div>
-							<div class="col-xs-4">
+							<div class="col-md-4">
 								<?php get_template_part( 'parts/panels/download', 'package' ); ?>
 							</div>
 						</div>

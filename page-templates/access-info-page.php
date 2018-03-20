@@ -25,7 +25,11 @@ $sp_access_info_active = get_field('sp_access_info_active', 'options');
 	
 		<div class="main-txt with-pad">
 			<div class="container-fluid">
-			<?php the_content(); ?>
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<?php the_content(); ?>
+					</div>
+				</div>
 			</div>
 		</div>
 		

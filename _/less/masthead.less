@@ -54,29 +54,15 @@
 }
 
 #hp-masthead {
-//.h(75);
-height: 90vh;
-.bg-img("hp-mast-image-bg-2017.png");
+//.h(65);
+//height: 90vh;
+.bg-img("hp-mast-image-bg-2018.png");
 .bg-repeat;
-background-position: center center;
+background-position: left center;
 .bg-size;
 
-	.mast-bg-stripes {	
-	.abs;	
-	.block;
-	.top(0);
-	.left(0);
-	width: 100%;
-	height: 100%;
-	//.bg-img("hp-mast-notes-bg.png");
-	.bg-img("hp-mast-stripes-bg.png");
-	.bg-repeat;
-	background-position: -2px -2px;
-	.bg-size();
-	}
-	
 	.container-fluid {
-	.pad-top(10);
+	.pad-top(8);
 	height: 100%;	
 	.rel;
 	z-index: 2;
@@ -84,8 +70,9 @@ background-position: center center;
 	
 	.logo-wrap {
 	width: 100%;
-	.h(30);	
+	.h(25);	
 	.mag-top(0);
+	.mag-bot-20;
 	margin-left: auto;
 	margin-right: auto;
 	//.bg-img("hp-logo-wrap-bg.png");
@@ -97,10 +84,10 @@ background-position: center center;
 	.logo {
 	width: 100%;
 	height: 100%;	
-	.bg-img("logo-lrg.png");
+	.bg-img("logo-lrg-2018.png");
 	.bg-repeat;
 	background-position: center center;
-	.bg-size(80%);
+	.bg-size(70%);
 	}
 	
 	.date-location {
@@ -109,11 +96,17 @@ background-position: center center;
 		.dl-item {
 		.in-block;	
 		.txt-col-wht;
-		.font-size(2.6);
+		.font-size(2.2);
+		.trans-bg(@pink; 0.5);
+		.pad-left(1);
+		.pad-right(1);
+		.mag-bot(1);
+		.mag-left(0.5);
+		.mag-right(0.5);
 		//.mag-left(-2);
 			span {
 			.in-block;
-			.pad-left(2);
+			//.pad-left(2);
 			.line-h(6);
 			//.rounded(8px);
 			//.transform(skewX(-10deg));	
@@ -129,6 +122,11 @@ background-position: center center;
 	.line-h(6);
 	}
 	
+	.festival-tag {
+	.font-size(2);	
+	.mag-bot(3);	
+	}
+	
 	a.book-tickets-btn-lg {
 	width: auto;
 	.abs;
@@ -140,7 +138,9 @@ background-position: center center;
 	}
 	
 	@media screen and (orientation: portrait) {
-	height: 80vh;
+	//height: 80vh;
+	//.h(65);
+		
 		.festival-tag {
 		.font-size(2);	
 		letter-spacing: wpx;
@@ -162,25 +162,11 @@ background-position: center center;
 
 #gbl-masthead {
 .h(20);	
-.bg-img("gbl-mast-image-bg-2017.png");
+.bg-img("gbl-mast-image-bg-2018.png");
 .bg-repeat;
-background-position: center center;
+background-position: left bottom;
 .bg-size;
-.border-bot(@wht; 0.5);
-	
-	.mast-bg-stripes {	
-	.abs;
-	.block;
-	.top(0);
-	.left(0);
-	width: 100%;
-	height: 100%;
-	//.bg-img("hp-mast-notes-bg.png");
-	.bg-img("hp-mast-stripes-bg.png");
-	.bg-repeat;
-	background-position: center center;
-	.bg-size;
-	}
+.border-bot(@wht; 0.4);
 	
 	.container-fluid {
 	height: 100%;	
@@ -195,7 +181,7 @@ background-position: center center;
 		.in-block;
 		width: 100%;
 		height: 100%;
-		.bg-img("logo-lrg.png");
+		.bg-img("logo-lrg-2018.png");
 		.bg-repeat;
 		background-position: center center;
 		.bg-size(contain);

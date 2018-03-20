@@ -22,10 +22,6 @@ $social_links = get_field('gbl_social_links', 'options');
 <footer id="footer-site-info" role="contentinfo" class="bg-col-blue">
 	<div class="footer-top">
 		
-		<div class="footer-bg-imgs">
-			<div class="footer-grass-bg"></div>
-		</div>
-		
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
