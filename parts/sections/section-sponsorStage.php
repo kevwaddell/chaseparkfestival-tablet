@@ -1,4 +1,8 @@
 <?php  
+$stage_sponsor_active = get_field('stage_sponsorship_active', 'options');	
+?>
+
+<?php if ($stage_sponsor_active) {  
 $stage_sponsor_text = get_field('stage_sponsor_text', 'options');	
 $main_stage_price = get_field('main_stage_price', 'options');	
 $second_stage_price = get_field('second_stage_price', 'options');	
@@ -32,3 +36,4 @@ $second_stage_price = get_field('second_stage_price', 'options');
 	</div>
 	</div>
 </section>
+<?php } ?>

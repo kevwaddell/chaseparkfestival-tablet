@@ -1,8 +1,11 @@
 <?php
+$sponsor_booklet_active = get_field('sponsor_booklet_active', 'options');
+?>
+<?php if ($sponsor_booklet_active) { ?>
+<?php
 $sponsor_booklet_file = get_field('sponsor_booklet_file', 'options');
 $sponsorship_booklet_cover = get_field('sponsorship_booklet_cover', 'options');
-?>
-
+?>	
 <div class="download-panel">
 	<div class="row">
 		<div class="col-xs-6 col-md-12">
@@ -13,4 +16,5 @@ $sponsorship_booklet_cover = get_field('sponsorship_booklet_cover', 'options');
 		<a href="<?php echo $sponsor_booklet_file; ?>" target="_blank" class="download-btn btn btn-default btn-block tk-azo-sans-uber">Download</a>
 		</div>
 	</div>
-</div>
+</div>	
+<?php } ?>

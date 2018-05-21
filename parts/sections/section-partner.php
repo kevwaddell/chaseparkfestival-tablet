@@ -1,3 +1,6 @@
+<?php 
+$sponsors_active = get_field( 'sponsors_active', 'options' );
+?>
 <?php if ($sponsors_active) { ?>
 <?php  
 $section_title = get_field('gbl_sponsors_section_title', 'options');	
