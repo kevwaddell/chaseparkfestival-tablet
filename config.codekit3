@@ -7,7 +7,7 @@
 		"uuidString": "E620C36B-1C5D-42A7-9A71-FFF73D8BE46B"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -181,6 +181,7 @@
 	"\/_\/css\/img\/gbl-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 54636,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/gbl-mast-image-bg.jpg",
 		"oF": 0,
@@ -298,6 +299,7 @@
 	"\/_\/css\/img\/hp-mast-image-bg.jpg": {
 		"ft": 16384,
 		"iS": 139145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/hp-mast-image-bg.jpg",
 		"oF": 0,
@@ -405,6 +407,7 @@
 	"\/_\/css\/img\/user-bg.jpg": {
 		"ft": 16384,
 		"iS": 1443060,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/css\/img\/user-bg.jpg",
 		"oF": 0,
@@ -442,6 +445,7 @@
 	"\/_\/img\/around-site-left.jpg": {
 		"ft": 16384,
 		"iS": 25642,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-left.jpg",
 		"oF": 0,
@@ -452,6 +456,7 @@
 	"\/_\/img\/around-site-right.jpg": {
 		"ft": 16384,
 		"iS": 22206,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_\/img\/around-site-right.jpg",
 		"oF": 0,
@@ -1265,6 +1270,13 @@
 		"oAP": "\/parts\/sections\/section-assistance.php",
 		"oF": 0
 		},
+	"\/parts\/sections\/section-mainPartner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/sections\/section-mainPartner.php",
+		"oF": 0
+		},
 	"\/parts\/sections\/section-parking.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1414,7 +1426,8 @@
 	"creationDate": 510078119,
 	"displayValue": "chaseparkfestival-tablet",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-krieger"
+	"iconImageName": "meme-krieger",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3217,6 +3230,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
